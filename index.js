@@ -77,9 +77,29 @@ function toggleSort (event) {
     let key = event.target.value
     if (key==='Farm Name'){
         fetchFarms()
-        
+        hiddenFarmLabel.classList.remove('hidden')
+        hiddenFarmSort.classList.remove('hidden')
+        hiddenCountyLabel.className ='hidden'
+        hiddenCountySort.className='hidden'
+        hiddenProduceLabel.className='hidden'
+        hiddenProduceSort.className='hidden'
+
     } else if (key==='County'){
         fetchCounties()
+        hiddenCountyLabel.classList.remove('hidden')
+        hiddenCountySort.classList.remove('hidden')
+        hiddenFarmLabel.className ='hidden'
+        hiddenFarmSort.className='hidden'
+        hiddenProduceLabel.className='hidden'
+        hiddenProduceSort.className='hidden'
+
+    } else if(key==='Farm Produces'){
+        hiddenProduceLabel.classList.remove('hidden')
+        hiddenProduceSort.classList.remove('hidden')
+        hiddenFarmLabel.className ='hidden'
+        hiddenFarmSort.className='hidden'
+        hiddenCountyLabel.className ='hidden'
+        hiddenCountySort.className='hidden'
     }
     toggleList.innerHTML= ``
     showPanel.innerHTML=``
