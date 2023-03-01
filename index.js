@@ -6,6 +6,12 @@ const produceDropdown= document.querySelector('#farm-produces')
 const toggleList= document.querySelector('#list')
 const toggleSearch= document.querySelector('#list-by')
 const showPanel = document.querySelector('#show-panel')
+const hiddenFarmSort = document.querySelector('#farm-sort-by')
+const hiddenCountySort = document.querySelector('#county-sort-by')
+const hiddenProduceSort = document.querySelector('#produce-sort-by')
+const hiddenFarmLabel = document.querySelector('#farm-sort-label')
+const hiddenCountyLabel = document.querySelector('#county-sort-label')
+const hiddenProduceLabel = document.querySelector('#produce-sort-label')
 
 //Fetch & Display Functions
 function fetchFarms () {
@@ -57,8 +63,6 @@ function displayCounties (counties) {
             countyName.innerHTML = `${county.County}`
             const countyRisk = document.createElement ('h4')
             countyRisk.innerHTML = `This counties proximity to potentially contaminated water gives it a risk factor of ${county.Risk}`
-            const countySortBar = document.createElement ('select')
-            countySortBar.id 
 
             showPanel.innerHTML=``
             showPanel.appendChild(countyName)
@@ -73,6 +77,7 @@ function toggleSort (event) {
     let key = event.target.value
     if (key==='Farm Name'){
         fetchFarms()
+        
     } else if (key==='County'){
         fetchCounties()
     }
