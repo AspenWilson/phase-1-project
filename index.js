@@ -1,20 +1,90 @@
 //Constant Declarations
+const farmURL= `http://localhost:3000/farms`
+const countyURL= `http://localhost:3000/counties`
 const farmNameSearch= document.querySelector('#farm-name')
 const produceDropdown= document.querySelector('#farm-produces')
-const farmList= document.querySelector('#list')
+const toggleList= document.querySelector('#list')
+const toggleSearch= document.querySelector('#list-by')
+const showPanel = document.querySelector('#show-panel')
 
+//Fetch & Display Functions
 function fetchFarms () {
-    fetch (`http://localhost:3000/farms`)
+    fetch (farmURL)
     .then(resp => resp.json())
-    .then(json => displayFarmData(json))
+    .then(json => displayFarms(json))
 }
 
-function displayFarmData (farms) {
+
+function fetchCounties () {
+    fetch (countyURL)
+    .then(resp => resp.json())
+    .then(json=> displayCounties(json))
+}
+
+function displayFarms(farms) {
     farms.forEach(farm => {
         const farmLi = document.createElement('li')
         farmLi.innerHTML = `${farm.FarmName}`
-        farmList.appendChild(farmLi)
+        toggleList.appendChild(farmLi)
+        
+        farmLi.addEventListener('click', (e) => {
+            const farmName = document.createElement('h2')
+            farmName.innerHTML = `${farm.FarmName}`
+            const farmCounty = document.createElement('h4')
+            farmCounty.innerHTML = `This farm is location in ${farm.County} county.`
+            const farmOutput = document.createElement ('h4')
+            farmOutput.innerHTML = `This farm produces ${farm.Produces}.`
+            const farmRisk = document.createElement ('h4')
+            farmRisk.innerHTML = `Due to this farm's county, it carries an exposure risk of ${farm.Risk}.`
+
+            showPanel.innerHTML= ``
+            showPanel.appendChild(farmName)
+            showPanel.appendChild(farmCounty)
+            showPanel.appendChild(farmOutput)
+            showPanel.appendChild(farmRisk)
+       })
     })
 }
 
-fetchFarms()
+function displayCounties (counties) {
+    counties.forEach(county => {
+        const countyLi= document.createElement('li')
+        countyLi.innerHTML = `${county.County}`
+        toggleList.appendChild(countyLi)
+
+        countyLi.addEventListener('click', (e) => {
+            const countyName = document.createElement('h2')
+            countyName.innerHTML = `${county.County}`
+            const countyRisk = document.createElement ('h4')
+            countyRisk.innerHTML = `This counties proximity to potentially contaminated water gives it a risk factor of ${county.Risk}`
+
+            showPanel.innerHTML=``
+            showPanel.appendChild(countyName)
+            showPanel.appendChild(countyRisk)
+        })
+    })
+}
+
+//Toggle Functions 
+
+function toggleSort (event) {
+    let key = event.target.value
+    if (key==='Farm Name'){
+        fetchFarms()
+    } else if (key==='County'){
+        fetchCounties()
+    }
+    toggleList.innerHTML= ``
+    showPanel.innerHTML=``
+}
+
+
+//Search Bar and Produce Dropdown Functions
+
+function produceFilter () {
+    
+}
+
+//Toggle Event Listeners
+toggleSearch.addEventListener('change', toggleSort)
+
