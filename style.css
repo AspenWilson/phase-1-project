@@ -14,3 +14,18 @@ title {
 #search-show-panel {
     float:right
 }
+
+section {
+    display: grid
+}
+
+#search-panel {
+    float: left;
+    margin: 0 1.5%;
+    width: 63%;
+  }
+#list-panel  {
+    float: left;
+    margin: 0 1.5%;
+    width: 30%;
+  }
