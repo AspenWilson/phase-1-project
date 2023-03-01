@@ -57,6 +57,8 @@ function displayCounties (counties) {
             countyName.innerHTML = `${county.County}`
             const countyRisk = document.createElement ('h4')
             countyRisk.innerHTML = `This counties proximity to potentially contaminated water gives it a risk factor of ${county.Risk}`
+            const countySortBar = document.createElement ('select')
+            countySortBar.id 
 
             showPanel.innerHTML=``
             showPanel.appendChild(countyName)
@@ -78,11 +80,10 @@ function toggleSort (event) {
     showPanel.innerHTML=``
 }
 
-
 //Search Bar and Produce Dropdown Functions
 
 function produceFilter () {
-    
+
 }
 
 //Toggle Event Listeners
