@@ -6,3 +6,15 @@ title {
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
 }
+
+#opening {
+    text-align:center;
+}
+
+#list-panel {
+    display: grid
+}
+
+#search-show-panel {
+    float:right
+}

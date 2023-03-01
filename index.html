@@ -7,15 +7,24 @@
     <body>
         <div id= 'opening'>
         <h1> First Headline</h1>
+        <hr>
         <p> Opening paragraph</p>
     </div>
+    <hr>
     <div id= 'list-panel'>
+        <h3 id="list-options">View list of data by Farm Name or by County</h3>
         <!-- This where the toggle list with be-->
         <ul id= "list">
-
         </ul>
     </div>
     <div id="search-show-panel">
+        <input type="search" id="farm-name" name="farm-name" placeholder="Farm Name..." value=""/><br>
+        <select id="farm-produces" name="farm-produces">
+            <option></option>
+            <option>Livestock: Meat/Dairy/Eggs</option>
+            <option>Livestock & Produce</option>
+            <option>Produce: Veggies/Fruit/Honey</option>
+        </select>
         <!-- This is where the search bar and results will appear-->
     </div>
     <div id="submit-new">

@@ -1,2563 +1,2563 @@
 {
     "farms": [
      {
-       "ID Number": 1,
-       "Farm Name": "1850 Homestead LLC",
+       "ID": 1,
+       "FarmName": "1850 Homestead LLC",
        "County": "Medina",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 2,
-       "Farm Name": "7 Wonders Farm",
+       "ID": 2,
+       "FarmName": "7 Wonders Farm",
        "County": "Butler",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 3,
-       "Farm Name": "A Bounty Of Eden",
+       "ID": 3,
+       "FarmName": "A Bounty Of Eden",
        "County": "Highland",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 4,
-       "Farm Name": "A New Story Farm",
+       "ID": 4,
+       "FarmName": "A New Story Farm",
        "County": "Warren",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 5,
-       "Farm Name": "A's and O's Farm",
+       "ID": 5,
+       "FarmName": "A's and O's Farm",
        "County": "Lake",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 6,
-       "Farm Name": "Aggie's Rest",
+       "ID": 6,
+       "FarmName": "Aggie's Rest",
        "County": "Lorain",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 7,
-       "Farm Name": "Al's Vegetables",
+       "ID": 7,
+       "FarmName": "Al's Vegetables",
        "County": "Huron",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 8,
-       "Farm Name": "Andy Mast Farm",
+       "ID": 8,
+       "FarmName": "Andy Mast Farm",
        "County": "Wayne",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 9,
-       "Farm Name": "Autumn Harvest Farms Produce",
+       "ID": 9,
+       "FarmName": "Autumn Harvest Farms Produce",
        "County": "Wayne",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 10,
-       "Farm Name": "Bachmans Swiss Farm",
+       "ID": 10,
+       "FarmName": "Bachmans Swiss Farm",
        "County": "Wayne",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 11,
-       "Farm Name": "Baker's Fresh Produce & Honey",
+       "ID": 11,
+       "FarmName": "Baker's Fresh Produce & Honey",
        "County": "Medina",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 12,
-       "Farm Name": "Banner Greenhouses",
+       "ID": 12,
+       "FarmName": "Banner Greenhouses",
        "County": "Mahoning",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 13,
-       "Farm Name": "Banzhaf Garten Organic Farm",
+       "ID": 13,
+       "FarmName": "Banzhaf Garten Organic Farm",
        "County": "Ashland",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 14,
-       "Farm Name": "Bat Barn Farm and Foraging",
+       "ID": 14,
+       "FarmName": "Bat Barn Farm and Foraging",
        "County": "Geauga",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 15,
-       "Farm Name": "Bird's Haven Farms",
+       "ID": 15,
+       "FarmName": "Bird's Haven Farms",
        "County": "Licking",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 16,
-       "Farm Name": "Birdsong Farm",
+       "ID": 16,
+       "FarmName": "Birdsong Farm",
        "County": "Portage",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 17,
-       "Farm Name": "BixBee Farm",
+       "ID": 17,
+       "FarmName": "BixBee Farm",
        "County": "Franklin",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 18,
-       "Farm Name": "BJ Gourmet Garlic Farm",
+       "ID": 18,
+       "FarmName": "BJ Gourmet Garlic Farm",
        "County": "Lorain",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 19,
-       "Farm Name": "Black Dog Acres",
+       "ID": 19,
+       "FarmName": "Black Dog Acres",
        "County": "Portage",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 20,
-       "Farm Name": "Blackbird Meadows Farm, LLC",
+       "ID": 20,
+       "FarmName": "Blackbird Meadows Farm, LLC",
        "County": "Stark",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 21,
-       "Farm Name": "Blaney Family Farm",
+       "ID": 21,
+       "FarmName": "Blaney Family Farm",
        "County": "Meigs",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 22,
-       "Farm Name": "Bloomfield Meadows",
+       "ID": 22,
+       "FarmName": "Bloomfield Meadows",
        "County": "Morrow",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 23,
-       "Farm Name": "Blue Owl Hollow/Blue Owl Garden Emporium",
+       "ID": 23,
+       "FarmName": "Blue Owl Hollow/Blue Owl Garden Emporium",
        "County": "Licking",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 24,
-       "Farm Name": "Bluebird Farm",
+       "ID": 24,
+       "FarmName": "Bluebird Farm",
        "County": "Harrison",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 25,
-       "Farm Name": "Boulder Belt Eco-Farm",
+       "ID": 25,
+       "FarmName": "Boulder Belt Eco-Farm",
        "County": "Preble",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 26,
-       "Farm Name": "Bramblestone Farm",
+       "ID": 26,
+       "FarmName": "Bramblestone Farm",
        "County": "Summit",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 27,
-       "Farm Name": "Branstool Orchards",
+       "ID": 27,
+       "FarmName": "Branstool Orchards",
        "County": "Licking",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 28,
-       "Farm Name": "Brickel Creek Organic Farm",
+       "ID": 28,
+       "FarmName": "Brickel Creek Organic Farm",
        "County": "Greene",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 29,
-       "Farm Name": "Buckeye Highlands",
+       "ID": 29,
+       "FarmName": "Buckeye Highlands",
        "County": "Columbiana",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 30,
-       "Farm Name": "Canal Junction Natural Meats and Farmstead Cheese",
+       "ID": 30,
+       "FarmName": "Canal Junction Natural Meats and Farmstead Cheese",
        "County": "Paulding",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 31,
-       "Farm Name": "Cherry Creek Farm",
+       "ID": 31,
+       "FarmName": "Cherry Creek Farm",
        "County": "Licking",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 32,
-       "Farm Name": "Church Farms, LLC",
+       "ID": 32,
+       "FarmName": "Church Farms, LLC",
        "County": "Harrison",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 33,
-       "Farm Name": "Cincy Urban Farm",
+       "ID": 33,
+       "FarmName": "Cincy Urban Farm",
        "County": "Hamilton",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 34,
-       "Farm Name": "Circle Garden Farm",
+       "ID": 34,
+       "FarmName": "Circle Garden Farm",
        "County": "Highland",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 35,
-       "Farm Name": "City Folkâ€™s Farm Shop",
+       "ID": 35,
+       "FarmName": "City Folkâ€™s Farm Shop",
        "County": "Franklin",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 36,
-       "Farm Name": "Clay Hill Produce and Flowers",
+       "ID": 36,
+       "FarmName": "Clay Hill Produce and Flowers",
        "County": "Seneca",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 37,
-       "Farm Name": "Clearview Farm",
+       "ID": 37,
+       "FarmName": "Clearview Farm",
        "County": "Licking",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 38,
-       "Farm Name": "Cleveland Botanical Garden Green Corps",
+       "ID": 38,
+       "FarmName": "Cleveland Botanical Garden Green Corps",
        "County": "Cuyahoga",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 39,
-       "Farm Name": "Clinehens Farms",
+       "ID": 39,
+       "FarmName": "Clinehens Farms",
        "County": "Shelby",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 40,
-       "Farm Name": "Cloverland Ag Service LLC",
+       "ID": 40,
+       "FarmName": "Cloverland Ag Service LLC",
        "County": "Holmes",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 41,
-       "Farm Name": "Common Greens",
+       "ID": 41,
+       "FarmName": "Common Greens",
        "County": "Franklin",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 42,
-       "Farm Name": "Corner Hill Farm",
+       "ID": 42,
+       "FarmName": "Corner Hill Farm",
        "County": "Highland",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 43,
-       "Farm Name": "Crumrine Family Organic Farms",
+       "ID": 43,
+       "FarmName": "Crumrine Family Organic Farms",
        "County": "Ashland",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 44,
-       "Farm Name": "Curly Tail Organic Farm",
+       "ID": 44,
+       "FarmName": "Curly Tail Organic Farm",
        "County": "Knox",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 45,
-       "Farm Name": "Dale Filbrun Farms/Morning Sun Organic Farm",
+       "ID": 45,
+       "FarmName": "Dale Filbrun Farms/Morning Sun Organic Farm",
        "County": "Preble",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 46,
-       "Farm Name": "Dayton Urban Grown Cooperative",
+       "ID": 46,
+       "FarmName": "Dayton Urban Grown Cooperative",
        "County": "Montgomery",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 47,
-       "Farm Name": "DKG Seed Farms, LLC",
+       "ID": 47,
+       "FarmName": "DKG Seed Farms, LLC",
        "County": "Wayne",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 48,
-       "Farm Name": "Down the Road Farm",
+       "ID": 48,
+       "FarmName": "Down the Road Farm",
        "County": "Perry",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 49,
-       "Farm Name": "E and M Eggcres LLC",
+       "ID": 49,
+       "FarmName": "E and M Eggcres LLC",
        "County": "Morrow",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 50,
-       "Farm Name": "E.A.T. Food for Life Farm",
+       "ID": 50,
+       "FarmName": "E.A.T. Food for Life Farm",
        "County": "Darke",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 51,
-       "Farm Name": "Everett Acres",
+       "ID": 51,
+       "FarmName": "Everett Acres",
        "County": "Tuscarawas",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 52,
-       "Farm Name": "Everyday Acres",
+       "ID": 52,
+       "FarmName": "Everyday Acres",
        "County": "Licking",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 53,
-       "Farm Name": "Falb Family Farm",
+       "ID": 53,
+       "FarmName": "Falb Family Farm",
        "County": "Wayne",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 54,
-       "Farm Name": "Family Roots Farm",
+       "ID": 54,
+       "FarmName": "Family Roots Farm",
        "County": "Medina",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 55,
-       "Farm Name": "Fichter Farm",
+       "ID": 55,
+       "FarmName": "Fichter Farm",
        "County": "Columbiana",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 56,
-       "Farm Name": "Flannel Dog Farm",
+       "ID": 56,
+       "FarmName": "Flannel Dog Farm",
        "County": "Ashtabula",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 57,
-       "Farm Name": "Fly by Night Farms",
+       "ID": 57,
+       "FarmName": "Fly by Night Farms",
        "County": "Geauga",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 58,
-       "Farm Name": "Flying J Farm",
+       "ID": 58,
+       "FarmName": "Flying J Farm",
        "County": "Licking",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 59,
-       "Farm Name": "Foraged & Sown",
+       "ID": 59,
+       "FarmName": "Foraged & Sown",
        "County": "Franklin",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 60,
-       "Farm Name": "Fox Hollow Farm",
+       "ID": 60,
+       "FarmName": "Fox Hollow Farm",
        "County": "Knox",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 61,
-       "Farm Name": "Franklinton Farms",
+       "ID": 61,
+       "FarmName": "Franklinton Farms",
        "County": "Franklin",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 62,
-       "Farm Name": "Fresh To Morrow",
+       "ID": 62,
+       "FarmName": "Fresh To Morrow",
        "County": "Warren",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 63,
-       "Farm Name": "Friendly Meadows",
+       "ID": 63,
+       "FarmName": "Friendly Meadows",
        "County": "Holmes",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 64,
-       "Farm Name": "From Scratch Farm LLC",
+       "ID": 64,
+       "FarmName": "From Scratch Farm LLC",
        "County": "Licking",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 65,
-       "Farm Name": "Front Axle Farm",
+       "ID": 65,
+       "FarmName": "Front Axle Farm",
        "County": "Licking",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 66,
-       "Farm Name": "Gehres' Family Farm",
+       "ID": 66,
+       "FarmName": "Gehres' Family Farm",
        "County": "Highland",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 67,
-       "Farm Name": "Ginger Gorge Organics LLC",
+       "ID": 67,
+       "FarmName": "Ginger Gorge Organics LLC",
        "County": "Trumbull",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 68,
-       "Farm Name": "Goodell Family Farm",
+       "ID": 68,
+       "FarmName": "Goodell Family Farm",
        "County": "Portage",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 69,
-       "Farm Name": "Gorman Heritage Farm",
+       "ID": 69,
+       "FarmName": "Gorman Heritage Farm",
        "County": "Hamilton",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 70,
-       "Farm Name": "Grassroots Farm and Foods",
+       "ID": 70,
+       "FarmName": "Grassroots Farm and Foods",
        "County": "Pike",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 71,
-       "Farm Name": "Grassy Treeland Farm",
+       "ID": 71,
+       "FarmName": "Grassy Treeland Farm",
        "County": "Columbiana",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 72,
-       "Farm Name": "Grazeland Farm",
+       "ID": 72,
+       "FarmName": "Grazeland Farm",
        "County": "Brown",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 73,
-       "Farm Name": "Green Edge Organic Gardens",
+       "ID": 73,
+       "FarmName": "Green Edge Organic Gardens",
        "County": "Athens",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 74,
-       "Farm Name": "Green Field Farms Co-op",
+       "ID": 74,
+       "FarmName": "Green Field Farms Co-op",
        "County": "Wayne",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 75,
-       "Farm Name": "Green Girl Garden",
+       "ID": 75,
+       "FarmName": "Green Girl Garden",
        "County": "Hamilton",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 76,
-       "Farm Name": "Green Patch Garden",
+       "ID": 76,
+       "FarmName": "Green Patch Garden",
        "County": "Richland",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 77,
-       "Farm Name": "Green Springs Haven",
+       "ID": 77,
+       "FarmName": "Green Springs Haven",
        "County": "Sandusky",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 78,
-       "Farm Name": "Greenacres Farm",
+       "ID": 78,
+       "FarmName": "Greenacres Farm",
        "County": "Hamilton",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 79,
-       "Farm Name": "Grim Farms",
+       "ID": 79,
+       "FarmName": "Grim Farms",
        "County": "Darke",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 80,
-       "Farm Name": "Happy Toes Homestead",
+       "ID": 80,
+       "FarmName": "Happy Toes Homestead",
        "County": "Franklin",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 81,
-       "Farm Name": "Happy Wife Acres",
+       "ID": 81,
+       "FarmName": "Happy Wife Acres",
        "County": "Clark",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 82,
-       "Farm Name": "Harmon Creek Farms",
+       "ID": 82,
+       "FarmName": "Harmon Creek Farms",
        "County": "Stark",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 83,
-       "Farm Name": "Harris Organic Farm",
+       "ID": 83,
+       "FarmName": "Harris Organic Farm",
        "County": "Clinton",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 84,
-       "Farm Name": "Harvest Bell Farm",
+       "ID": 84,
+       "FarmName": "Harvest Bell Farm",
        "County": "Geauga",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 85,
-       "Farm Name": "Harvey's Family Farm",
+       "ID": 85,
+       "FarmName": "Harvey's Family Farm",
        "County": "Ashland",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 86,
-       "Farm Name": "Haystack Farm",
+       "ID": 86,
+       "FarmName": "Haystack Farm",
        "County": "Montgomery",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 87,
-       "Farm Name": "Henson Family Farm LLC",
+       "ID": 87,
+       "FarmName": "Henson Family Farm LLC",
        "County": "Clinton",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 88,
-       "Farm Name": "Hickory Hollow",
+       "ID": 88,
+       "FarmName": "Hickory Hollow",
        "County": "Columbiana",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 89,
-       "Farm Name": "High Mill Park",
+       "ID": 89,
+       "FarmName": "High Mill Park",
        "County": "Stark",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 90,
-       "Farm Name": "Honey Blossom Orchard & Hadrway Farms",
+       "ID": 90,
+       "FarmName": "Honey Blossom Orchard & Hadrway Farms",
        "County": "Henry",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 91,
-       "Farm Name": "Hook Organics",
+       "ID": 91,
+       "FarmName": "Hook Organics",
        "County": "Lorain",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 92,
-       "Farm Name": "Horner Farmstead",
+       "ID": 92,
+       "FarmName": "Horner Farmstead",
        "County": "Scioto",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 93,
-       "Farm Name": "Hungry Toad Farm",
+       "ID": 93,
+       "FarmName": "Hungry Toad Farm",
        "County": "Montgomery",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 94,
-       "Farm Name": "Hurricane Run Farm",
+       "ID": 94,
+       "FarmName": "Hurricane Run Farm",
        "County": "Scioto",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 95,
-       "Farm Name": "HyR Brix",
+       "ID": 95,
+       "FarmName": "HyR Brix",
        "County": "Delaware",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 96,
-       "Farm Name": "I Grow U Pick, LLC",
+       "ID": 96,
+       "FarmName": "I Grow U Pick, LLC",
        "County": "Licking",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 97,
-       "Farm Name": "Indian Springs Berry Farm LLC",
+       "ID": 97,
+       "FarmName": "Indian Springs Berry Farm LLC",
        "County": "Butler",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 98,
-       "Farm Name": "Infinite Garden Farm",
+       "ID": 98,
+       "FarmName": "Infinite Garden Farm",
        "County": "Medina",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 99,
-       "Farm Name": "Jandy's",
+       "ID": 99,
+       "FarmName": "Jandy's",
        "County": "Logan",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 100,
-       "Farm Name": "Jedidiah Farm",
+       "ID": 100,
+       "FarmName": "Jedidiah Farm",
        "County": "Delaware",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 101,
-       "Farm Name": "Jorgensen Farms",
+       "ID": 101,
+       "FarmName": "Jorgensen Farms",
        "County": "Franklin",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 102,
-       "Farm Name": "Juniper Meadow Permaculture Farm",
+       "ID": 102,
+       "FarmName": "Juniper Meadow Permaculture Farm",
        "County": "Montgomery",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 103,
-       "Farm Name": "Krazy Kraut Fermented Foods",
+       "ID": 103,
+       "FarmName": "Krazy Kraut Fermented Foods",
        "County": "Franklin",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 104,
-       "Farm Name": "L Marie Ltd",
+       "ID": 104,
+       "FarmName": "L Marie Ltd",
        "County": "Richland",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 105,
-       "Farm Name": "Leroy and Rose Meyer",
+       "ID": 105,
+       "FarmName": "Leroy and Rose Meyer",
        "County": "Shelby",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 106,
-       "Farm Name": "Little Miami Farms",
+       "ID": 106,
+       "FarmName": "Little Miami Farms",
        "County": "Greene",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 107,
-       "Farm Name": "Little Muskingum Kettle Farm",
+       "ID": 107,
+       "FarmName": "Little Muskingum Kettle Farm",
        "County": "Washington",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 108,
-       "Farm Name": "Locust Run Farm",
+       "ID": 108,
+       "FarmName": "Locust Run Farm",
        "County": "Butler",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 109,
-       "Farm Name": "Mad River Garlic Growers",
+       "ID": 109,
+       "FarmName": "Mad River Garlic Growers",
        "County": "Greene",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 110,
-       "Farm Name": "Magnolia Herb Farm",
+       "ID": 110,
+       "FarmName": "Magnolia Herb Farm",
        "County": "Medina",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 111,
-       "Farm Name": "Maplestar Farm L.L.C.",
+       "ID": 111,
+       "FarmName": "Maplestar Farm L.L.C.",
        "County": "Geauga",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 112,
-       "Farm Name": "McAfee Farm",
+       "ID": 112,
+       "FarmName": "McAfee Farm",
        "County": "Greene",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 113,
-       "Farm Name": "Meadow Rise Farm",
+       "ID": 113,
+       "FarmName": "Meadow Rise Farm",
        "County": "Richland",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 114,
-       "Farm Name": "Mennell Acres, LLC",
+       "ID": 114,
+       "FarmName": "Mennell Acres, LLC",
        "County": "Medina",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 115,
-       "Farm Name": "Mile Creek Farm",
+       "ID": 115,
+       "FarmName": "Mile Creek Farm",
        "County": "Montgomery",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 116,
-       "Farm Name": "Miller Heritage Farms Inc.",
+       "ID": 116,
+       "FarmName": "Miller Heritage Farms Inc.",
        "County": "Madison",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 117,
-       "Farm Name": "Miller Thyme Farm LLC",
+       "ID": 117,
+       "FarmName": "Miller Thyme Farm LLC",
        "County": "Union",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 118,
-       "Farm Name": "Mission of Mary Cooperative",
+       "ID": 118,
+       "FarmName": "Mission of Mary Cooperative",
        "County": "Montgomery",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 119,
-       "Farm Name": "Mockingbird Meadows",
+       "ID": 119,
+       "FarmName": "Mockingbird Meadows",
        "County": "Union",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 120,
-       "Farm Name": "Moon & Maple Farm",
+       "ID": 120,
+       "FarmName": "Moon & Maple Farm",
        "County": "Clermont",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 121,
-       "Farm Name": "Mound View Farms",
+       "ID": 121,
+       "FarmName": "Mound View Farms",
        "County": "Adams",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 122,
-       "Farm Name": "Moyer Brothers LLC",
+       "ID": 122,
+       "FarmName": "Moyer Brothers LLC",
        "County": "Seneca",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 123,
-       "Farm Name": "Mud Run Farm",
+       "ID": 123,
+       "FarmName": "Mud Run Farm",
        "County": "Stark",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 124,
-       "Farm Name": "Mudd yFork farm",
+       "ID": 124,
+       "FarmName": "Mudd yFork farm",
        "County": "Wayne",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 125,
-       "Farm Name": "Mulberry Creek Herb Farm",
+       "ID": 125,
+       "FarmName": "Mulberry Creek Herb Farm",
        "County": "Erie",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 126,
-       "Farm Name": "Next 7 Organic Farm",
+       "ID": 126,
+       "FarmName": "Next 7 Organic Farm",
        "County": "Harrison",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 127,
-       "Farm Name": "Oak Top Farm",
+       "ID": 127,
+       "FarmName": "Oak Top Farm",
        "County": "Licking",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 128,
-       "Farm Name": "Oaks & Sprouts Limited",
+       "ID": 128,
+       "FarmName": "Oaks & Sprouts Limited",
        "County": "Champaign",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 129,
-       "Farm Name": "Olney Friends School Farm",
+       "ID": 129,
+       "FarmName": "Olney Friends School Farm",
        "County": "Belmont",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 130,
-       "Farm Name": "Organic Farm at Bear Creek",
+       "ID": 130,
+       "FarmName": "Organic Farm at Bear Creek",
        "County": "Clermont",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 131,
-       "Farm Name": "Owen Miller Farm",
+       "ID": 131,
+       "FarmName": "Owen Miller Farm",
        "County": "Coshocton",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 132,
-       "Farm Name": "Owl Creek Bison",
+       "ID": 132,
+       "FarmName": "Owl Creek Bison",
        "County": "Ross",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 133,
-       "Farm Name": "Owl's Nest Garden LLC",
+       "ID": 133,
+       "FarmName": "Owl's Nest Garden LLC",
        "County": "Pike",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 134,
-       "Farm Name": "Patchwork Gardens",
+       "ID": 134,
+       "FarmName": "Patchwork Gardens",
        "County": "Montgomery",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 135,
-       "Farm Name": "Paul Bell and Sons",
+       "ID": 135,
+       "FarmName": "Paul Bell and Sons",
        "County": "Logan",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 136,
-       "Farm Name": "Peach Mountain Organics",
+       "ID": 136,
+       "FarmName": "Peach Mountain Organics",
        "County": "Greene",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 137,
-       "Farm Name": "Pohl Dairy",
+       "ID": 137,
+       "FarmName": "Pohl Dairy",
        "County": "Mercer",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 138,
-       "Farm Name": "Pure Intentions Inc.",
+       "ID": 138,
+       "FarmName": "Pure Intentions Inc.",
        "County": "Summit",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 139,
-       "Farm Name": "Quarry Hill Orchards",
+       "ID": 139,
+       "FarmName": "Quarry Hill Orchards",
        "County": "Erie",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 140,
-       "Farm Name": "RainFresh Harvests",
+       "ID": 140,
+       "FarmName": "RainFresh Harvests",
        "County": "Union",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 141,
-       "Farm Name": "Raven Rocks",
+       "ID": 141,
+       "FarmName": "Raven Rocks",
        "County": "Belmont",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 142,
-       "Farm Name": "Richardson Farms",
+       "ID": 142,
+       "FarmName": "Richardson Farms",
        "County": "Medina",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 143,
-       "Farm Name": "Rider Landing",
+       "ID": 143,
+       "FarmName": "Rider Landing",
        "County": "Wood",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 144,
-       "Farm Name": "Riverwood Farms",
+       "ID": 144,
+       "FarmName": "Riverwood Farms",
        "County": "Delaware",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 145,
-       "Farm Name": "Rock Dove Farm",
+       "ID": 145,
+       "FarmName": "Rock Dove Farm",
        "County": "Madison",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 146,
-       "Farm Name": "Rolling-O Farm",
+       "ID": 146,
+       "FarmName": "Rolling-O Farm",
        "County": "Darke",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 147,
-       "Farm Name": "Roots, Fruits and Shoots, LLC",
+       "ID": 147,
+       "FarmName": "Roots, Fruits and Shoots, LLC",
        "County": "Licking",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 148,
-       "Farm Name": "Rose Ridge Farm",
+       "ID": 148,
+       "FarmName": "Rose Ridge Farm",
        "County": "Carroll",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 149,
-       "Farm Name": "Rosebud's Ranch and Garden, LLC",
+       "ID": 149,
+       "FarmName": "Rosebud's Ranch and Garden, LLC",
        "County": "Miami",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 150,
-       "Farm Name": "Running Creek Farm",
+       "ID": 150,
+       "FarmName": "Running Creek Farm",
        "County": "Hamilton",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 151,
-       "Farm Name": "Running Creek Farm, LLC",
+       "ID": 151,
+       "FarmName": "Running Creek Farm, LLC",
        "County": "Hamilton",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 152,
-       "Farm Name": "Sanctuary Farm",
+       "ID": 152,
+       "FarmName": "Sanctuary Farm",
        "County": "Huron",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 153,
-       "Farm Name": "Sanctuary Hill Farms",
+       "ID": 153,
+       "FarmName": "Sanctuary Hill Farms",
        "County": "Shelby",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 154,
-       "Farm Name": "Sassafras Farm",
+       "ID": 154,
+       "FarmName": "Sassafras Farm",
        "County": "Athens",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 155,
-       "Farm Name": "Savages Farm Fresh Produce",
+       "ID": 155,
+       "FarmName": "Savages Farm Fresh Produce",
        "County": "Trumbull",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 156,
-       "Farm Name": "Schacht Family Farm",
+       "ID": 156,
+       "FarmName": "Schacht Family Farm",
        "County": "Franklin",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 157,
-       "Farm Name": "Schmidt Family Farms",
+       "ID": 157,
+       "FarmName": "Schmidt Family Farms",
        "County": "Medina",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 158,
-       "Farm Name": "Seminary Hill Farm",
+       "ID": 158,
+       "FarmName": "Seminary Hill Farm",
        "County": "Delaware",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 159,
-       "Farm Name": "Shade Valley Farms",
+       "ID": 159,
+       "FarmName": "Shade Valley Farms",
        "County": "Meigs",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 160,
-       "Farm Name": "Shagbark Seed & Mill",
+       "ID": 160,
+       "FarmName": "Shagbark Seed & Mill",
        "County": "Athens",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 161,
-       "Farm Name": "Shared Legacy Farms",
+       "ID": 161,
+       "FarmName": "Shared Legacy Farms",
        "County": "Ottawa",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 162,
-       "Farm Name": "Shiloh Acres Family Dairy",
+       "ID": 162,
+       "FarmName": "Shiloh Acres Family Dairy",
        "County": "Ashtabula",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 163,
-       "Farm Name": "Shively Farm",
+       "ID": 163,
+       "FarmName": "Shively Farm",
        "County": "Henry",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 164,
-       "Farm Name": "Siegel Farms",
+       "ID": 164,
+       "FarmName": "Siegel Farms",
        "County": "Shelby",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 165,
-       "Farm Name": "Silver Leaf Farms LLC",
+       "ID": 165,
+       "FarmName": "Silver Leaf Farms LLC",
        "County": "Medina",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 166,
-       "Farm Name": "Simon Certified Organic Family Farm",
+       "ID": 166,
+       "FarmName": "Simon Certified Organic Family Farm",
        "County": "Stark",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 167,
-       "Farm Name": "Simple Living Farm LLC",
+       "ID": 167,
+       "FarmName": "Simple Living Farm LLC",
        "County": "Miami",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 168,
-       "Farm Name": "Smaller Footprint Farm",
+       "ID": 168,
+       "FarmName": "Smaller Footprint Farm",
        "County": "Clark",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 169,
-       "Farm Name": "Spray Farms",
+       "ID": 169,
+       "FarmName": "Spray Farms",
        "County": "Knox",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 170,
-       "Farm Name": "Storehouse Tea Company L.L.C.",
+       "ID": 170,
+       "FarmName": "Storehouse Tea Company L.L.C.",
        "County": "Cuyahoga",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 171,
-       "Farm Name": "Straits Brothers Farm, Inc.",
+       "ID": 171,
+       "FarmName": "Straits Brothers Farm, Inc.",
        "County": "Holmes",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 172,
-       "Farm Name": "Strawberry Hill Farm",
+       "ID": 172,
+       "FarmName": "Strawberry Hill Farm",
        "County": "Coshocton",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 173,
-       "Farm Name": "Stutzman Farms",
+       "ID": 173,
+       "FarmName": "Stutzman Farms",
        "County": "Holmes",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 174,
-       "Farm Name": "Sugar Valley Maple",
+       "ID": 174,
+       "FarmName": "Sugar Valley Maple",
        "County": "Geauga",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 175,
-       "Farm Name": "Sunbeam Family Farm",
+       "ID": 175,
+       "FarmName": "Sunbeam Family Farm",
        "County": "Licking",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 176,
-       "Farm Name": "Sunny Meadows Flower Farm",
+       "ID": 176,
+       "FarmName": "Sunny Meadows Flower Farm",
        "County": "Franklin",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 177,
-       "Farm Name": "Sunset Ridge",
+       "ID": 177,
+       "FarmName": "Sunset Ridge",
        "County": "Champaign",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 178,
-       "Farm Name": "Sunsprout Farms of Central Ohio",
+       "ID": 178,
+       "FarmName": "Sunsprout Farms of Central Ohio",
        "County": "Franklin",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 179,
-       "Farm Name": "Sweet Grass Dairy",
+       "ID": 179,
+       "FarmName": "Sweet Grass Dairy",
        "County": "Knox",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 180,
-       "Farm Name": "That Guy's Family Farm",
+       "ID": 180,
+       "FarmName": "That Guy's Family Farm",
        "County": "Clinton",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 181,
-       "Farm Name": "Thaxton's Organic Garlic/Thaxton Family Farm",
+       "ID": 181,
+       "FarmName": "Thaxton's Organic Garlic/Thaxton Family Farm",
        "County": "Summit",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 182,
-       "Farm Name": "The Common Milkweed",
+       "ID": 182,
+       "FarmName": "The Common Milkweed",
        "County": "Morrow",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 183,
-       "Farm Name": "The Kale Yard",
+       "ID": 183,
+       "FarmName": "The Kale Yard",
        "County": "Fairfield",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 184,
-       "Farm Name": "Three Creeks Produce",
+       "ID": 184,
+       "FarmName": "Three Creeks Produce",
        "County": "Franklin",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 185,
-       "Farm Name": "Thriving Earth Farms",
+       "ID": 185,
+       "FarmName": "Thriving Earth Farms",
        "County": "Warren",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 186,
-       "Farm Name": "Tierra Verde Farms",
+       "ID": 186,
+       "FarmName": "Tierra Verde Farms",
        "County": "Portage",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 187,
-       "Farm Name": "Tilley Farmstead",
+       "ID": 187,
+       "FarmName": "Tilley Farmstead",
        "County": "Pickaway",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 188,
-       "Farm Name": "Timberlane Organic Farms",
+       "ID": 188,
+       "FarmName": "Timberlane Organic Farms",
        "County": "Sandusky",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 189,
-       "Farm Name": "Turner Farm",
+       "ID": 189,
+       "FarmName": "Turner Farm",
        "County": "Hamilton",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 190,
-       "Farm Name": "Twilight Acres",
+       "ID": 190,
+       "FarmName": "Twilight Acres",
        "County": "Holmes",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 191,
-       "Farm Name": "Twin Parks Farm",
+       "ID": 191,
+       "FarmName": "Twin Parks Farm",
        "County": "Wayne",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 192,
-       "Farm Name": "Two Blocks Away Farm",
+       "ID": 192,
+       "FarmName": "Two Blocks Away Farm",
        "County": "Licking",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 193,
-       "Farm Name": "Two By Two Farm",
+       "ID": 193,
+       "FarmName": "Two By Two Farm",
        "County": "Wayne",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 194,
-       "Farm Name": "Up The Lane Farm",
+       "ID": 194,
+       "FarmName": "Up The Lane Farm",
        "County": "Licking",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 195,
-       "Farm Name": "Venture Heritage Farm",
+       "ID": 195,
+       "FarmName": "Venture Heritage Farm",
        "County": "Wayne",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 196,
-       "Farm Name": "Walnut Creek Seeds, LLC",
+       "ID": 196,
+       "FarmName": "Walnut Creek Seeds, LLC",
        "County": "Fairfield",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 197,
-       "Farm Name": "Warnecke Farms",
+       "ID": 197,
+       "FarmName": "Warnecke Farms",
        "County": "Putnam",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 198,
-       "Farm Name": "Wayward Seed Farm",
+       "ID": 198,
+       "FarmName": "Wayward Seed Farm",
        "County": "Sandusky",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 199,
-       "Farm Name": "Weller Family Farms LLC",
+       "ID": 199,
+       "FarmName": "Weller Family Farms LLC",
        "County": "Pickaway",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 200,
-       "Farm Name": "Wenger Farm",
+       "ID": 200,
+       "FarmName": "Wenger Farm",
        "County": "Wayne",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 201,
-       "Farm Name": "White Rocks Farm",
+       "ID": 201,
+       "FarmName": "White Rocks Farm",
        "County": "Hamilton",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 202,
-       "Farm Name": "Wiseheart Farm",
+       "ID": 202,
+       "FarmName": "Wiseheart Farm",
        "County": "Pickaway",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 203,
-       "Farm Name": "Wishwell Farms",
+       "ID": 203,
+       "FarmName": "Wishwell Farms",
        "County": "Logan",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 204,
-       "Farm Name": "Wooden Shoe Gardens",
+       "ID": 204,
+       "FarmName": "Wooden Shoe Gardens",
        "County": "Hamilton",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 205,
-       "Farm Name": "Woodlyn Acres Farm",
+       "ID": 205,
+       "FarmName": "Woodlyn Acres Farm",
        "County": "Wayne",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 206,
-       "Farm Name": "Woodstack Farms",
+       "ID": 206,
+       "FarmName": "Woodstack Farms",
        "County": "Medina",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 207,
-       "Farm Name": "Woodstone Farms",
+       "ID": 207,
+       "FarmName": "Woodstone Farms",
        "County": "Sandusky",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 208,
-       "Farm Name": "Wrocklage Run Farm",
+       "ID": 208,
+       "FarmName": "Wrocklage Run Farm",
        "County": "Warren",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 209,
-       "Farm Name": "Yellowbird Foodshed",
+       "ID": 209,
+       "FarmName": "Yellowbird Foodshed",
        "County": "Knox",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 210,
-       "Farm Name": "3-D Meats, LLC",
+       "ID": 210,
+       "FarmName": "3-D Meats, LLC",
        "County": "Wayne",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 211,
-       "Farm Name": "Young's Jersey Dairy, Inc.",
+       "ID": 211,
+       "FarmName": "Young's Jersey Dairy, Inc.",
        "County": "Clark",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 212,
-       "Farm Name": "Ye Olde Grist Mill",
+       "ID": 212,
+       "FarmName": "Ye Olde Grist Mill",
        "County": "Ashland",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 213,
-       "Farm Name": "Arps Dairy, Inc.",
+       "ID": 213,
+       "FarmName": "Arps Dairy, Inc.",
        "County": "Defiance",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 214,
-       "Farm Name": "White House Fruit Farm",
+       "ID": 214,
+       "FarmName": "White House Fruit Farm",
        "County": "Mahoning",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 215,
-       "Farm Name": "Barney's Frathouse Chiles",
+       "ID": 215,
+       "FarmName": "Barney's Frathouse Chiles",
        "County": "Licking",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 216,
-       "Farm Name": "Bauman Orchards, Inc.",
+       "ID": 216,
+       "FarmName": "Bauman Orchards, Inc.",
        "County": "Wayne",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 217,
-       "Farm Name": "Twin Oak Farms",
+       "ID": 217,
+       "FarmName": "Twin Oak Farms",
        "County": "Ashland",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 218,
-       "Farm Name": "Blue Jacket Dairy",
+       "ID": 218,
+       "FarmName": "Blue Jacket Dairy",
        "County": "Logan",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 219,
-       "Farm Name": "Bowman & Landes Turkey, Inc.",
+       "ID": 219,
+       "FarmName": "Bowman & Landes Turkey, Inc.",
        "County": "Miami",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 220,
-       "Farm Name": "Brinkman Turkey Farms, Inc.",
+       "ID": 220,
+       "FarmName": "Brinkman Turkey Farms, Inc.",
        "County": "Hancock",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 221,
-       "Farm Name": "Buckeye Family Farms, LLC",
+       "ID": 221,
+       "FarmName": "Buckeye Family Farms, LLC",
        "County": "Hancock",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 222,
-       "Farm Name": "Buckeye Fresh",
+       "ID": 222,
+       "FarmName": "Buckeye Fresh",
        "County": "Medina",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 223,
-       "Farm Name": "Butcher Family Maple Products",
+       "ID": 223,
+       "FarmName": "Butcher Family Maple Products",
        "County": "Knox",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 224,
-       "Farm Name": "Buurma Farms, Inc.",
+       "ID": 224,
+       "FarmName": "Buurma Farms, Inc.",
        "County": "Huron",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 225,
-       "Farm Name": "Stan Hess Family Maple Syrup",
+       "ID": 225,
+       "FarmName": "Stan Hess Family Maple Syrup",
        "County": "Ashland",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 226,
-       "Farm Name": "Cooper Farms",
+       "ID": 226,
+       "FarmName": "Cooper Farms",
        "County": "Mercer",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 227,
-       "Farm Name": "Doug Walcher Farms",
+       "ID": 227,
+       "FarmName": "Doug Walcher Farms",
        "County": "Huron",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 228,
-       "Farm Name": "Draper's Apiary LLC",
+       "ID": 228,
+       "FarmName": "Draper's Apiary LLC",
        "County": "Huron",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 229,
-       "Farm Name": "Elfrink Farms",
+       "ID": 229,
+       "FarmName": "Elfrink Farms",
        "County": "Franklin",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 230,
-       "Farm Name": "Elk Creek Honey Farm, LLC",
+       "ID": 230,
+       "FarmName": "Elk Creek Honey Farm, LLC",
        "County": "Lorain",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 231,
-       "Farm Name": "Elsass Farms, Inc.",
+       "ID": 231,
+       "FarmName": "Elsass Farms, Inc.",
        "County": "Shelby",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 232,
-       "Farm Name": "ETC Produce & Provisions",
+       "ID": 232,
+       "FarmName": "ETC Produce & Provisions",
        "County": "Clermont",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 233,
-       "Farm Name": "Evans Family Ranch",
+       "ID": 233,
+       "FarmName": "Evans Family Ranch",
        "County": "Clark",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 234,
-       "Farm Name": "Round Hill Dairy",
+       "ID": 234,
+       "FarmName": "Round Hill Dairy",
        "County": "Knox",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 235,
-       "Farm Name": "Rosebud's Ranch & Garden, LLC",
+       "ID": 235,
+       "FarmName": "Rosebud's Ranch & Garden, LLC",
        "County": "Miami",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 236,
-       "Farm Name": "Root's Poultry",
+       "ID": 236,
+       "FarmName": "Root's Poultry",
        "County": "Sandusky",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 237,
-       "Farm Name": "Fisher's Gardens",
+       "ID": 237,
+       "FarmName": "Fisher's Gardens",
        "County": "Franklin",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 238,
-       "Farm Name": "Richards Maple Products, Inc.",
+       "ID": 238,
+       "FarmName": "Richards Maple Products, Inc.",
        "County": "GEAUGA",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 239,
-       "Farm Name": "Forty Acres & Some Trees LLC",
+       "ID": 239,
+       "FarmName": "Forty Acres & Some Trees LLC",
        "County": "Delaware",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 240,
-       "Farm Name": "From Thy Bounty Farm",
+       "ID": 240,
+       "FarmName": "From Thy Bounty Farm",
        "County": "Butler",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 241,
-       "Farm Name": "Fruits of My Desires LLC",
+       "ID": 241,
+       "FarmName": "Fruits of My Desires LLC",
        "County": "Cuyahoga",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 242,
-       "Farm Name": "Fuhrmann Orchards LLC",
+       "ID": 242,
+       "FarmName": "Fuhrmann Orchards LLC",
        "County": "Scioto",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 243,
-       "Farm Name": "Gaiser Bee Co.",
+       "ID": 243,
+       "FarmName": "Gaiser Bee Co.",
        "County": "Hamilton",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 244,
-       "Farm Name": "Geiger Farms",
+       "ID": 244,
+       "FarmName": "Geiger Farms",
        "County": "Fairfield",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 245,
-       "Farm Name": "Gerber's Poultry, Inc.",
+       "ID": 245,
+       "FarmName": "Gerber's Poultry, Inc.",
        "County": "Wayne",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 246,
-       "Farm Name": "Gracious Farm",
+       "ID": 246,
+       "FarmName": "Gracious Farm",
        "County": "Clermont",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 247,
-       "Farm Name": "Grass Powered Poultry & Meats",
+       "ID": 247,
+       "FarmName": "Grass Powered Poultry & Meats",
        "County": "Highland",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 248,
-       "Farm Name": "Great Lakes Growers, LLC",
+       "ID": 248,
+       "FarmName": "Great Lakes Growers, LLC",
        "County": "Lake",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 249,
-       "Farm Name": "Guggisberg Cheese",
+       "ID": 249,
+       "FarmName": "Guggisberg Cheese",
        "County": "Holmes",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 250,
-       "Farm Name": "Hartzler Family Dairy",
+       "ID": 250,
+       "FarmName": "Hartzler Family Dairy",
        "County": "Wayne",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 251,
-       "Farm Name": "Hertzfeld Poultry Farms, Inc.",
+       "ID": 251,
+       "FarmName": "Hertzfeld Poultry Farms, Inc.",
        "County": "Wood",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 252,
-       "Farm Name": "High Desert Greens",
+       "ID": 252,
+       "FarmName": "High Desert Greens",
        "County": "Richland",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 253,
-       "Farm Name": "Ingram Acres, LLC",
+       "ID": 253,
+       "FarmName": "Ingram Acres, LLC",
        "County": "Fairfield",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 254,
-       "Farm Name": "Na*Kyrsie Meats",
+       "ID": 254,
+       "FarmName": "Na*Kyrsie Meats",
        "County": "Ashtabula",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 255,
-       "Farm Name": "Mucky Boots Farm LLC",
+       "ID": 255,
+       "FarmName": "Mucky Boots Farm LLC",
        "County": "Adams",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 256,
-       "Farm Name": "Jeff & Sheila's Apiary",
+       "ID": 256,
+       "FarmName": "Jeff & Sheila's Apiary",
        "County": "Stark",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 257,
-       "Farm Name": "K. W. Zellers & Son, Inc.",
+       "ID": 257,
+       "FarmName": "K. W. Zellers & Son, Inc.",
        "County": "Stark",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 258,
-       "Farm Name": "Lehnert Meats",
+       "ID": 258,
+       "FarmName": "Lehnert Meats",
        "County": "Madison",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 259,
-       "Farm Name": "Lohstroh Family Farms",
+       "ID": 259,
+       "FarmName": "Lohstroh Family Farms",
        "County": "Madison",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 260,
-       "Farm Name": "Louis Keil & sons",
+       "ID": 260,
+       "FarmName": "Louis Keil & sons",
        "County": "lucas",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 261,
-       "Farm Name": "Lynd Fruit Farm Inc.",
+       "ID": 261,
+       "FarmName": "Lynd Fruit Farm Inc.",
        "County": "Licking",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 262,
-       "Farm Name": "Maple Valley Maple Products",
+       "ID": 262,
+       "FarmName": "Maple Valley Maple Products",
        "County": "Columbiana",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 263,
-       "Farm Name": "Martig Farms, Inc.",
+       "ID": 263,
+       "FarmName": "Martig Farms, Inc.",
        "County": "Mahoning",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 264,
-       "Farm Name": "Maurer Farms LLC",
+       "ID": 264,
+       "FarmName": "Maurer Farms LLC",
        "County": "Wayne",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 265,
-       "Farm Name": "McMaster Farms LLC",
+       "ID": 265,
+       "FarmName": "McMaster Farms LLC",
        "County": "Columbiana",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 266,
-       "Farm Name": "Michael Farms Inc.",
+       "ID": 266,
+       "FarmName": "Michael Farms Inc.",
        "County": "Champaign",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 267,
-       "Farm Name": "MKM Farms LLC",
+       "ID": 267,
+       "FarmName": "MKM Farms LLC",
        "County": "Fairfield",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 268,
-       "Farm Name": "JB's Best",
+       "ID": 268,
+       "FarmName": "JB's Best",
        "County": "Athens",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 269,
-       "Farm Name": "Moss Garlic Farm",
+       "ID": 269,
+       "FarmName": "Moss Garlic Farm",
        "County": "Lorain",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 270,
-       "Farm Name": "Moundview Farms",
+       "ID": 270,
+       "FarmName": "Moundview Farms",
        "County": "Adams",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 271,
-       "Farm Name": "MRG Farm",
+       "ID": 271,
+       "FarmName": "MRG Farm",
        "County": "Licking",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 272,
-       "Farm Name": "Mucci Farms",
+       "ID": 272,
+       "FarmName": "Mucci Farms",
        "County": "Huron",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 273,
-       "Farm Name": "Nate's Nectar",
+       "ID": 273,
+       "FarmName": "Nate's Nectar",
        "County": "Logan",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 274,
-       "Farm Name": "Nature's Health Food",
+       "ID": 274,
+       "FarmName": "Nature's Health Food",
        "County": "Hardin",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 275,
-       "Farm Name": "Nature's Honey Tree",
+       "ID": 275,
+       "FarmName": "Nature's Honey Tree",
        "County": "Morrow",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 276,
-       "Farm Name": "NatureFresh Farms",
+       "ID": 276,
+       "FarmName": "NatureFresh Farms",
        "County": "Fulton",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 277,
-       "Farm Name": "Ohio Till Farmstead LLC",
+       "ID": 277,
+       "FarmName": "Ohio Till Farmstead LLC",
        "County": "Union",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 278,
-       "Farm Name": "Old Forge Dairy, LLC",
+       "ID": 278,
+       "FarmName": "Old Forge Dairy, LLC",
        "County": "Portage",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 279,
-       "Farm Name": "Oliver Farms Ohio LLC",
+       "ID": 279,
+       "FarmName": "Oliver Farms Ohio LLC",
        "County": "Licking",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 280,
-       "Farm Name": "Peaceful Fruits LLC",
+       "ID": 280,
+       "FarmName": "Peaceful Fruits LLC",
        "County": "Summit",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 281,
-       "Farm Name": "R Farm of Northwest Ohio, LLC",
+       "ID": 281,
+       "FarmName": "R Farm of Northwest Ohio, LLC",
        "County": "Williams",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 282,
-       "Farm Name": "Ravines Edge Maple Farm",
+       "ID": 282,
+       "FarmName": "Ravines Edge Maple Farm",
        "County": "Medina",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 283,
-       "Farm Name": "RHF All-Natural Beef LLC",
+       "ID": 283,
+       "FarmName": "RHF All-Natural Beef LLC",
        "County": "Guernsey",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 284,
-       "Farm Name": "Rhoads Farm Inc.",
+       "ID": 284,
+       "FarmName": "Rhoads Farm Inc.",
        "County": "Pickaway",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 285,
-       "Farm Name": "Fitch Pharm Farm Maple Syrup",
+       "ID": 285,
+       "FarmName": "Fitch Pharm Farm Maple Syrup",
        "County": "Ashland",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 286,
-       "Farm Name": "Root 42 Harvests",
+       "ID": 286,
+       "FarmName": "Root 42 Harvests",
        "County": "Medina",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 287,
-       "Farm Name": "Saddleberk Pork",
+       "ID": 287,
+       "FarmName": "Saddleberk Pork",
        "County": "Fairfield",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 288,
-       "Farm Name": "Sam Okun Produce Company",
+       "ID": 288,
+       "FarmName": "Sam Okun Produce Company",
        "County": "Lucas",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 289,
-       "Farm Name": "Sauder's Amish Country Eggs",
+       "ID": 289,
+       "FarmName": "Sauder's Amish Country Eggs",
        "County": "Holmes",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 290,
-       "Farm Name": "Schumaker Farms",
+       "ID": 290,
+       "FarmName": "Schumaker Farms",
        "County": "Coshocton",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 291,
-       "Farm Name": "Scott Farms",
+       "ID": 291,
+       "FarmName": "Scott Farms",
        "County": "Brown",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 292,
-       "Farm Name": "Signature Beef LLC- Berry Family Farm",
+       "ID": 292,
+       "FarmName": "Signature Beef LLC- Berry Family Farm",
        "County": "Fairfield",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 293,
-       "Farm Name": "Smith Dairy Products, Co.",
+       "ID": 293,
+       "FarmName": "Smith Dairy Products, Co.",
        "County": "Wayne",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 294,
-       "Farm Name": "Sonnenberg Farms",
+       "ID": 294,
+       "FarmName": "Sonnenberg Farms",
        "County": "Henry",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 295,
-       "Farm Name": "Stillwater Farms LLC",
+       "ID": 295,
+       "FarmName": "Stillwater Farms LLC",
        "County": "Fairfield",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 296,
-       "Farm Name": "Sycamore Grove Farm",
+       "ID": 296,
+       "FarmName": "Sycamore Grove Farm",
        "County": "Clinton",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 297,
-       "Farm Name": "Buckhead Meat of Ohio",
+       "ID": 297,
+       "FarmName": "Buckhead Meat of Ohio",
        "County": "Wood",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 298,
-       "Farm Name": "The Preston Family Farm",
+       "ID": 298,
+       "FarmName": "The Preston Family Farm",
        "County": "Fairfield",
        "Produces": "Livestock & Produce",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 299,
-       "Farm Name": "Toft Dairy, Inc.",
+       "ID": 299,
+       "FarmName": "Toft Dairy, Inc.",
        "County": "Erie",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 300,
-       "Farm Name": "Tonn's Honey",
+       "ID": 300,
+       "FarmName": "Tonn's Honey",
        "County": "Holmes",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 301,
-       "Farm Name": "Bissell Maple Farm",
+       "ID": 301,
+       "FarmName": "Bissell Maple Farm",
        "County": "Ashtabula",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 302,
-       "Farm Name": "Tyler's Farm LLC",
+       "ID": 302,
+       "FarmName": "Tyler's Farm LLC",
        "County": "Lorain",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 303,
-       "Farm Name": "United Dairy Inc.",
+       "ID": 303,
+       "FarmName": "United Dairy Inc.",
        "County": "Belmont",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 304,
-       "Farm Name": "VanScoy Farms, LLC",
+       "ID": 304,
+       "FarmName": "VanScoy Farms, LLC",
        "County": "Hardin",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 305,
-       "Farm Name": "Velvet-View Farmstead, LTD",
+       "ID": 305,
+       "FarmName": "Velvet-View Farmstead, LTD",
        "County": "Holmes",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 306,
-       "Farm Name": "W Bench Farms, LLC",
+       "ID": 306,
+       "FarmName": "W Bench Farms, LLC",
        "County": "Columbiana",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 307,
-       "Farm Name": "WAYNE WILKIN'S BACKYARD BEES",
+       "ID": 307,
+       "FarmName": "WAYNE WILKIN'S BACKYARD BEES",
        "County": "Clinton",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
-       "ID Number": 308,
-       "Farm Name": "Weaver Brothers, Inc.",
+       "ID": 308,
+       "FarmName": "Weaver Brothers, Inc.",
        "County": "Darke",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 309,
-       "Farm Name": "Beessential",
+       "ID": 309,
+       "FarmName": "Beessential",
        "County": "Cuyahoga",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 310,
-       "Farm Name": "Bee Wild Honey Farm LLC.",
+       "ID": 310,
+       "FarmName": "Bee Wild Honey Farm LLC.",
        "County": "Fayette",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 311,
-       "Farm Name": "Bee Loved Lavender",
+       "ID": 311,
+       "FarmName": "Bee Loved Lavender",
        "County": "Portage",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 312,
-       "Farm Name": "Wet Wood Farm, LLC",
+       "ID": 312,
+       "FarmName": "Wet Wood Farm, LLC",
        "County": "Clermont",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 313,
-       "Farm Name": "Wiers Farm",
+       "ID": 313,
+       "FarmName": "Wiers Farm",
        "County": "Huron",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
-       "ID Number": 314,
-       "Farm Name": "Will-O-Wood Lamb Co. LLC",
+       "ID": 314,
+       "FarmName": "Will-O-Wood Lamb Co. LLC",
        "County": "Athens",
        "Produces": "(Livestock)Meat/Dairy/Eggs",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
-       "ID Number": 315,
-       "Farm Name": "Wishwell Farms Produce, LLC",
+       "ID": 315,
+       "FarmName": "Wishwell Farms Produce, LLC",
        "County": "Logan",
        "Produces": "(Produce)Veggies/Fruit/Honey",
-       "Potential Exposure Level": 3
+       "Risk": 3
      }
     ],
     "counties": [
      {
        "County": "Adams",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
        "County": "Allen",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Ashland",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Ashtabula",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Athens",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
        "County": "Auglaize",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Belmont",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
        "County": "Brown",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
        "County": "Butler",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
        "County": "Carroll",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
        "County": "Champaign",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Clark",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Clermont",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
        "County": "Clinton",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
        "County": "Columbiana",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
        "County": "Coshocton",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Crawford",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Cuyahoga",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Darke",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Defiance",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Delaware",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Erie",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Fairfield",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Fayette",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Franklin",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Fulton",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Gallia",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
        "County": "Geauga",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Greene",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Guernsey",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
        "County": "Hamilton",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
        "County": "Hancock",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Hardin",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Harrison",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
        "County": "Henry",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Highland",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
        "County": "Hocking",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
        "County": "Holmes",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Huron",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Jackson",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
        "County": "Jefferson",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
        "County": "Knox",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Lake",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Lawrence",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
        "County": "Licking",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Logan",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Lorain",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Lucas",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Madison",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Mahoning",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Marion",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Medina",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Meigs",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
        "County": "Mercer",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Miami",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Monroe",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
        "County": "Montgomery",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Morgan",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
        "County": "Morrow",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Muskingum",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Noble",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
        "County": "Ottawa",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Paulding",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Perry",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Pickaway",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Pike",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
        "County": "Portage",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Preble",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Putnam",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Richland",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Ross",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Sandusky",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Scioto",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
        "County": "Seneca",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Shelby",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Stark",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
        "County": "Summit",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Trumbull",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Tuscarawas",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
        "County": "Union",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Van Wert",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Vinton",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
        "County": "Warren",
-       "Potential Exposure Level": 2
+       "Risk": 2
      },
      {
        "County": "Washington",
-       "Potential Exposure Level": 1
+       "Risk": 1
      },
      {
        "County": "Wayne",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Williams",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Wood",
-       "Potential Exposure Level": 3
+       "Risk": 3
      },
      {
        "County": "Wyandot",
-       "Potential Exposure Level": 3
+       "Risk": 3
      }
     ]
     }
