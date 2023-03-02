@@ -12,8 +12,6 @@ const hiddenProduceSort = document.querySelector('#produce-sort-by')
 const hiddenFarmLabel = document.querySelector('#farm-sort-label')
 const hiddenCountyLabel = document.querySelector('#county-sort-label')
 const hiddenProduceLabel = document.querySelector('#produce-sort-label')
-let farmsArray = []
-let countiesArray = []
 
 
 //Fetch & Display Functions
@@ -22,7 +20,6 @@ function fetchFarms () {
     .then(resp => resp.json())
     .then(json => displayFarms(json))
 }
-
 
 function fetchCounties () {
     fetch (countyURL)
@@ -45,12 +42,15 @@ function displayFarms(farms) {
             farmOutput.innerHTML = `This farm produces ${farm.Produces}.`
             const farmRisk = document.createElement ('h4')
             farmRisk.innerHTML = `Due to this farm's county, it carries an exposure risk of ${farm.Risk}.`
+            const farmImg = document.createElement('img')
+            farmImg.src =`${farm.MapImg}`
 
             showPanel.innerHTML= ``
             showPanel.appendChild(farmName)
             showPanel.appendChild(farmCounty)
             showPanel.appendChild(farmOutput)
             showPanel.appendChild(farmRisk)
+            showPanel.appendChild(farmImg)
        })
     })
 }
@@ -66,17 +66,18 @@ function displayCounties (counties) {
             countyName.innerHTML = `${county.County}`
             const countyRisk = document.createElement ('h4')
             countyRisk.innerHTML = `This counties proximity to potentially contaminated water gives it a risk factor of ${county.Risk}`
+            const countyImg = document.createElement('img')
+            countyImg.src= `${county.MapImg}`
 
             showPanel.innerHTML=``
             showPanel.appendChild(countyName)
             showPanel.appendChild(countyRisk)
+            showPanel.appendChild(countyImg)
         })
     })
 }
 
-
-
-//Filtering Functions for Toggles
+//Filtering Functions for Hidden Toggles
 function filterFarmAlpha () {
      fetch (farmURL)
      .then(resp => resp.json())
@@ -111,8 +112,7 @@ function filterProduce () {
 })
 }
 
-
-//Toggle Functions 
+//Toggle Function 
 
 function toggleSort (event) {
     let key = event.target.value
@@ -146,11 +146,9 @@ function toggleSort (event) {
     showPanel.innerHTML=``
 }
 
-//Search Bar and Produce Dropdown Functions
+//Search Bar Function
 
-function produceFilter () {
 
-}
 
 //Toggle Event Listeners
 toggleSearch.addEventListener('change', toggleSort)
@@ -161,5 +159,4 @@ hiddenCountySort.addEventListener('change', filterCountyAlpha)
 
 hiddenProduceSort.addEventListener('change', filterProduce)
 
-//need to add event listeners for each of the filter dropdowns 
 
