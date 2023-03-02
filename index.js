@@ -12,6 +12,9 @@ const hiddenProduceSort = document.querySelector('#produce-sort-by')
 const hiddenFarmLabel = document.querySelector('#farm-sort-label')
 const hiddenCountyLabel = document.querySelector('#county-sort-label')
 const hiddenProduceLabel = document.querySelector('#produce-sort-label')
+let farmsArray = []
+let countiesArray = []
+
 
 //Fetch & Display Functions
 function fetchFarms () {
@@ -37,7 +40,7 @@ function displayFarms(farms) {
             const farmName = document.createElement('h2')
             farmName.innerHTML = `${farm.FarmName}`
             const farmCounty = document.createElement('h4')
-            farmCounty.innerHTML = `This farm is location in ${farm.County} county.`
+            farmCounty.innerHTML = `This farm is located in ${farm.County} county.`
             const farmOutput = document.createElement ('h4')
             farmOutput.innerHTML = `This farm produces ${farm.Produces}.`
             const farmRisk = document.createElement ('h4')
@@ -70,6 +73,44 @@ function displayCounties (counties) {
         })
     })
 }
+
+
+
+//Filtering Functions for Toggles
+function filterFarmAlpha () {
+     fetch (farmURL)
+     .then(resp => resp.json())
+     .then(farms => {
+        let key = hiddenFarmSort.value.toUpperCase()
+        let filteredFarms = farms.filter(farm => String(farm.FarmName).startsWith(key))
+        displayFarms(filteredFarms)
+     })
+     toggleList.innerHTML= ``
+     showPanel.innerHTML=``
+    }
+
+function filterCountyAlpha () {
+    fetch (countyURL)
+    .then(resp => resp.json())
+    .then(counties => {
+       let key = hiddenCountySort.value.toUpperCase()
+       let filteredCounties = counties.filter(county => String(county.County).startsWith(key))
+       displayCounties(filteredCounties)
+    })
+    toggleList.innerHTML= ``
+    showPanel.innerHTML=``
+}
+
+function filterProduce () {
+    fetch (farmURL)
+    .then(resp => resp.json())
+    .then(farms => {
+       let key = hiddenProduceSort.value
+       let filteredFarmsProduce = farms.filter(farm => String(farm.Produces) === key)
+       displayFarms(filteredFarmsProduce)
+})
+}
+
 
 //Toggle Functions 
 
@@ -113,4 +154,12 @@ function produceFilter () {
 
 //Toggle Event Listeners
 toggleSearch.addEventListener('change', toggleSort)
+
+hiddenFarmSort.addEventListener('change', filterFarmAlpha)
+
+hiddenCountySort.addEventListener('change', filterCountyAlpha)
+
+hiddenProduceSort.addEventListener('change', filterProduce)
+
+//need to add event listeners for each of the filter dropdowns 
 
