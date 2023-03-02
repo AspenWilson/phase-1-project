@@ -12,6 +12,8 @@ const hiddenProduceSort = document.querySelector('#produce-sort-by')
 const hiddenFarmLabel = document.querySelector('#farm-sort-label')
 const hiddenCountyLabel = document.querySelector('#county-sort-label')
 const hiddenProduceLabel = document.querySelector('#produce-sort-label')
+const clickAdd = document.querySelector('#click-add')
+const hiddenAddForm = document.querySelector('#add-farm')
 
 
 //Fetch & Display Functions
@@ -146,11 +148,17 @@ function toggleSort (event) {
     showPanel.innerHTML=``
 }
 
-//Search Bar Function
+//Add Farm Functions
+function showForm () {
+    if (hiddenAddForm.className === 'hidden') {
+    hiddenAddForm.classList.remove('hidden')
+} else {
+    hiddenAddForm.className ='hidden'
+}
+}
 
 
-
-//Toggle Event Listeners
+//Event Listeners
 toggleSearch.addEventListener('change', toggleSort)
 
 hiddenFarmSort.addEventListener('change', filterFarmAlpha)
@@ -159,4 +167,5 @@ hiddenCountySort.addEventListener('change', filterCountyAlpha)
 
 hiddenProduceSort.addEventListener('change', filterProduce)
 
+clickAdd.addEventListener('click', showForm)
 

@@ -98,18 +98,19 @@
         <ul id= "list">
         </ul>
     </div>
-    <div id="search-panel">
-        <h2>Search by Farm Name</h2>
+    <div id="add-panel">
+        <button id='click-add'>Click here to add an Ohio farm to the list</button>
         <!-- This is where the search bar will appear-->
-<input type="search" id="farm-name" name="farm-name" placeholder="Farm Name..." value=""/><br>
-
+    <form id="add-farm" class="hidden">
+        <input type="text" id="farm-name" name="farm-name" placeholder="Farm Name..." value=""/><br />
+        <input type="text" id="farm-county" name="farm-county" placeholder="Farm County" value="" /> <br />
+        <input type="text" id="county-risk" name="county-risk" placeholder="County Risk" value="" /> <br />
+        <input type= 'submit' value="Submit" />
+    </form>
 </div>
     <div id="show-panel">
                 <!-- This is where the toggle and search results will appear-->
 
-    </div>
-    <div id="submit-new">
-            <!-- This is where the submit area and resources will be -->
     </div>
         <!-- Keep JS tag below this line!-->
         <script type="text/javascript" src="index.js"></script>

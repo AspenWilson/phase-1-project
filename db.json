@@ -2520,7 +2520,7 @@
        "Risk": 3,
        "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Map_of_Ohio_highlighting_Clark_County.svg/300px-Map_of_Ohio_highlighting_Clark_County.svg.png"
      }
-     {
+    ],
         "counties": [
          {
            "County": "Adams",
@@ -2963,4 +2963,5 @@
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Map_of_Ohio_highlighting_Wyandot_County.svg/300px-Map_of_Ohio_highlighting_Wyandot_County.svg.png"
          }
         ]
-        }
+    }
+        
