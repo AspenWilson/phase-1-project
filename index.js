@@ -181,57 +181,36 @@ function popFields () {
     }
 popFields()
 
+function newID () {
+    fetch (farmURL)
+        .then(resp=> resp.json())
+        .then(farms=> {
+        const newID = (farms.length +1)
+        console.log(newID)
+})
+}
 
-function addFarm () {
-    let newFarmObj = {                
-    'ID': 316,
+const newFarmObj = {
+    'ID': newID(),
     'FarmName': newFarm.value,
     'County':newCounty.value,
     'Produces': newProduce.value,
     'Risk': newRisk.value,
     'MapImg': newMap.value
-    }
-    console.log(newFarmObj)
 }
-newProduce.addEventListener('change',addFarm)
-    // fetch (farmURL)
-    // .then(resp=> resp.json())
-    // .then(farms=> {
-    //     let newID = farms.length
 
-        // let newFarmObj = {
-        //     'ID': 316,
-        //     'FarmName': event.target.newFarm.value,
-        //     'County':event.target.newCounty.value,
-        //     'Produces': event.target.newProduce.value,
-        //     'Risk': event.target.newRisk.value,
-        //     'MapImg': event.target.newMap.value
-        //   }
-    //     fetch(farmURL, {
-    //         method: 'POST',
-    //         headers: {
-    //             "Content-Type": "application/json",
-    //             Accept: "application/json"
-    //           },
-    //           body: JSON.stringify({
-    //             'ID': 316,
-    //             'FarmName': event.target.newFarm.value,
-    //             'County':event.target.newCounty.value,
-    //             'Produces': event.target.newProduce.value,
-    //             'Risk': event.target.newRisk.value,
-    //             'MapImg': event.target.newMap.value
-    //           })
-    //         })
-    //         .then(resp=> resp.json())
-    //         .then(event=>event)
-    // }
+function addFarm (newFarmObj) {
+        fetch(farmURL, {
+        method: 'POST',
+        headers: {
+            "Content-Type": "application/json"
+              },
+              body: JSON.stringify(newFarmObj)
+    })
+        .then(resp=>resp.json())
+        .then(farm => console.log(farm))
+}
 
-
-    // newFarmBtn.addEventListener('submit',(e) => {
-    //     e.preventDefault()
-    //     addFarm(e.target)
-    //     console.log('i did something')
-    // })
 
 
 //Event Listeners
@@ -244,4 +223,9 @@ hiddenCountySort.addEventListener('change', filterCountyAlpha)
 hiddenProduceSort.addEventListener('change', filterProduce)
 
 clickAdd.addEventListener('click', showForm)
+
+document.addEventListener('DOMContentLoaded', (e) => {
+    e.preventDefault()
+    newFarmBtn.addEventListener('submit',addFarm)
+})
 
