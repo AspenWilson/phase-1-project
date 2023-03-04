@@ -378,7 +378,7 @@
      },
      {
        "ID": 48,
-       "FarmName": "City Folkâ€™s Farm Shop",
+       "FarmName": "City Folk's Farm Shop",
        "County": "Franklin",
        "Produces": "Livestock & Produce",
        "Risk": 3,
@@ -2524,442 +2524,442 @@
         "counties": [
          {
            "County": "Adams",
-           "Potential Exposure Level": 1,
+           "Risk": 1,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Map_of_Ohio_highlighting_Adams_County.svg/300px-Map_of_Ohio_highlighting_Adams_County.svg.png"
          },
          {
            "County": "Allen",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Map_of_Ohio_highlighting_Allen_County.svg/300px-Map_of_Ohio_highlighting_Allen_County.svg.png"
          },
          {
            "County": "Ashland",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Map_of_Ohio_highlighting_Ashland_County.svg/300px-Map_of_Ohio_highlighting_Ashland_County.svg.png"
          },
          {
            "County": "Ashtabula",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Map_of_Ohio_highlighting_Ashtabula_County.svg/300px-Map_of_Ohio_highlighting_Ashtabula_County.svg.png"
          },
          {
            "County": "Athens",
-           "Potential Exposure Level": 1,
+           "Risk": 1,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Map_of_Ohio_highlighting_Athens_County.svg/300px-Map_of_Ohio_highlighting_Athens_County.svg.png"
          },
          {
            "County": "Auglaize",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Map_of_Ohio_highlighting_Auglaize_County.svg/300px-Map_of_Ohio_highlighting_Auglaize_County.svg.png"
          },
          {
            "County": "Belmont",
-           "Potential Exposure Level": 1,
+           "Risk": 1,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Map_of_Ohio_highlighting_Belmont_County.svg/300px-Map_of_Ohio_highlighting_Belmont_County.svg.png"
          },
          {
            "County": "Brown",
-           "Potential Exposure Level": 1,
+           "Risk": 1,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Map_of_Ohio_highlighting_Brown_County.svg/300px-Map_of_Ohio_highlighting_Brown_County.svg.png"
          },
          {
            "County": "Butler",
-           "Potential Exposure Level": 2,
+           "Risk": 2,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Map_of_Ohio_highlighting_Butler_County.svg/300px-Map_of_Ohio_highlighting_Butler_County.svg.png"
          },
          {
            "County": "Carroll",
-           "Potential Exposure Level": 2,
+           "Risk": 2,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Map_of_Ohio_highlighting_Carroll_County.svg/300px-Map_of_Ohio_highlighting_Carroll_County.svg.png"
          },
          {
            "County": "Champaign",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Map_of_Ohio_highlighting_Champaign_County.svg/300px-Map_of_Ohio_highlighting_Champaign_County.svg.png"
          },
          {
            "County": "Clark",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Map_of_Ohio_highlighting_Clark_County.svg/300px-Map_of_Ohio_highlighting_Clark_County.svg.png"
          },
          {
            "County": "Clermont",
-           "Potential Exposure Level": 1,
+           "Risk": 1,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Map_of_Ohio_highlighting_Clermont_County.svg/300px-Map_of_Ohio_highlighting_Clermont_County.svg.png"
          },
          {
            "County": "Clinton",
-           "Potential Exposure Level": 2,
+           "Risk": 2,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Map_of_Ohio_highlighting_Clinton_County.svg/300px-Map_of_Ohio_highlighting_Clinton_County.svg.png"
          },
          {
            "County": "Columbiana",
-           "Potential Exposure Level": 1,
+           "Risk": 1,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Map_of_Ohio_highlighting_Columbiana_County.svg/300px-Map_of_Ohio_highlighting_Columbiana_County.svg.png"
          },
          {
            "County": "Coshocton",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Map_of_Ohio_highlighting_Coshocton_County.svg/300px-Map_of_Ohio_highlighting_Coshocton_County.svg.png"
          },
          {
            "County": "Crawford",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Map_of_Ohio_highlighting_Crawford_County.svg/300px-Map_of_Ohio_highlighting_Crawford_County.svg.png"
          },
          {
            "County": "Cuyahoga",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Map_of_Ohio_highlighting_Cuyahoga_County.svg/250px-Map_of_Ohio_highlighting_Cuyahoga_County.svg.png"
          },
          {
            "County": "Darke",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Map_of_Ohio_highlighting_Darke_County.svg/300px-Map_of_Ohio_highlighting_Darke_County.svg.png"
          },
          {
            "County": "Defiance",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Map_of_Ohio_highlighting_Defiance_County.svg/300px-Map_of_Ohio_highlighting_Defiance_County.svg.png"
          },
          {
            "County": "Delaware",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Map_of_Ohio_highlighting_Delaware_County.svg/300px-Map_of_Ohio_highlighting_Delaware_County.svg.png"
          },
          {
            "County": "Erie",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Map_of_Ohio_highlighting_Erie_County.svg/300px-Map_of_Ohio_highlighting_Erie_County.svg.png"
          },
          {
            "County": "Fairfield",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Map_of_Ohio_highlighting_Fairfield_County.svg/300px-Map_of_Ohio_highlighting_Fairfield_County.svg.png"
          },
          {
            "County": "Fayette",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Map_of_Ohio_highlighting_Fayette_County.svg/300px-Map_of_Ohio_highlighting_Fayette_County.svg.png"
          },
          {
            "County": "Franklin",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Map_of_Ohio_highlighting_Franklin_County.svg/250px-Map_of_Ohio_highlighting_Franklin_County.svg.png"
          },
          {
            "County": "Fulton",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Map_of_Ohio_highlighting_Fulton_County.svg/300px-Map_of_Ohio_highlighting_Fulton_County.svg.png"
          },
          {
            "County": "Gallia",
-           "Potential Exposure Level": 1,
+           "Risk": 1,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Map_of_Ohio_highlighting_Gallia_County.svg/300px-Map_of_Ohio_highlighting_Gallia_County.svg.png"
          },
          {
            "County": "Geauga",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Map_of_Ohio_highlighting_Geauga_County.svg/300px-Map_of_Ohio_highlighting_Geauga_County.svg.png"
          },
          {
            "County": "Greene",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Map_of_Ohio_highlighting_Greene_County.svg/300px-Map_of_Ohio_highlighting_Greene_County.svg.png"
          },
          {
            "County": "Guernsey",
-           "Potential Exposure Level": 2,
+           "Risk": 2,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Map_of_Ohio_highlighting_Guernsey_County.svg/300px-Map_of_Ohio_highlighting_Guernsey_County.svg.png"
          },
          {
            "County": "Hamilton",
-           "Potential Exposure Level": 1,
+           "Risk": 1,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Map_of_Ohio_highlighting_Hamilton_County.svg/300px-Map_of_Ohio_highlighting_Hamilton_County.svg.png"
          },
          {
            "County": "Hancock",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Map_of_Ohio_highlighting_Hancock_County.svg/300px-Map_of_Ohio_highlighting_Hancock_County.svg.png"
          },
          {
            "County": "Hardin",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Map_of_Ohio_highlighting_Hardin_County.svg/300px-Map_of_Ohio_highlighting_Hardin_County.svg.png"
          },
          {
            "County": "Harrison",
-           "Potential Exposure Level": 2,
+           "Risk": 2,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Map_of_Ohio_highlighting_Harrison_County.svg/300px-Map_of_Ohio_highlighting_Harrison_County.svg.png"
          },
          {
            "County": "Henry",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Map_of_Ohio_highlighting_Henry_County.svg/300px-Map_of_Ohio_highlighting_Henry_County.svg.png"
          },
          {
            "County": "Highland",
-           "Potential Exposure Level": 2,
+           "Risk": 2,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Map_of_Ohio_highlighting_Highland_County.svg/300px-Map_of_Ohio_highlighting_Highland_County.svg.png"
          },
          {
            "County": "Hocking",
-           "Potential Exposure Level": 2,
+           "Risk": 2,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Map_of_Ohio_highlighting_Hocking_County.svg/300px-Map_of_Ohio_highlighting_Hocking_County.svg.png"
          },
          {
            "County": "Holmes",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Map_of_Ohio_highlighting_Holmes_County.svg/300px-Map_of_Ohio_highlighting_Holmes_County.svg.png"
          },
          {
            "County": "Huron",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Map_of_Ohio_highlighting_Huron_County.svg/300px-Map_of_Ohio_highlighting_Huron_County.svg.png"
          },
          {
            "County": "Jackson",
-           "Potential Exposure Level": 2,
+           "Risk": 2,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Map_of_Ohio_highlighting_Jackson_County.svg/300px-Map_of_Ohio_highlighting_Jackson_County.svg.png"
          },
          {
            "County": "Jefferson",
-           "Potential Exposure Level": 1,
+           "Risk": 1,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Map_of_Ohio_highlighting_Jefferson_County.svg/300px-Map_of_Ohio_highlighting_Jefferson_County.svg.png"
          },
          {
            "County": "Knox",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Map_of_Ohio_highlighting_Knox_County.svg/300px-Map_of_Ohio_highlighting_Knox_County.svg.png"
          },
          {
            "County": "Lake",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Map_of_Ohio_highlighting_Lake_County.svg/300px-Map_of_Ohio_highlighting_Lake_County.svg.png"
          },
          {
            "County": "Lawrence",
-           "Potential Exposure Level": 1,
+           "Risk": 1,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Map_of_Ohio_highlighting_Lawrence_County.svg/300px-Map_of_Ohio_highlighting_Lawrence_County.svg.png"
          },
          {
            "County": "Licking",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Map_of_Ohio_highlighting_Licking_County.svg/300px-Map_of_Ohio_highlighting_Licking_County.svg.png"
          },
          {
            "County": "Logan",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Map_of_Ohio_highlighting_Logan_County.svg/300px-Map_of_Ohio_highlighting_Logan_County.svg.png"
          },
          {
            "County": "Lorain",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Map_of_Ohio_highlighting_Lorain_County.svg/300px-Map_of_Ohio_highlighting_Lorain_County.svg.png"
          },
          {
            "County": "Lucas",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Map_of_Ohio_highlighting_Lucas_County.svg/300px-Map_of_Ohio_highlighting_Lucas_County.svg.png"
          },
          {
            "County": "Madison",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Map_of_Ohio_highlighting_Madison_County.svg/300px-Map_of_Ohio_highlighting_Madison_County.svg.png"
          },
          {
            "County": "Mahoning",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Map_of_Ohio_highlighting_Mahoning_County.svg/300px-Map_of_Ohio_highlighting_Mahoning_County.svg.png"
          },
          {
            "County": "Marion",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Map_of_Ohio_highlighting_Marion_County.svg/300px-Map_of_Ohio_highlighting_Marion_County.svg.png"
          },
          {
            "County": "Medina",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Map_of_Ohio_highlighting_Medina_County.svg/300px-Map_of_Ohio_highlighting_Medina_County.svg.png"
          },
          {
            "County": "Meigs",
-           "Potential Exposure Level": 1,
+           "Risk": 1,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Map_of_Ohio_highlighting_Meigs_County.svg/300px-Map_of_Ohio_highlighting_Meigs_County.svg.png"
          },
          {
            "County": "Mercer",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Map_of_Ohio_highlighting_Mercer_County.svg/300px-Map_of_Ohio_highlighting_Mercer_County.svg.png"
          },
          {
            "County": "Miami",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Map_of_Ohio_highlighting_Miami_County.svg/300px-Map_of_Ohio_highlighting_Miami_County.svg.png"
          },
          {
            "County": "Monroe",
-           "Potential Exposure Level": 1,
+           "Risk": 1,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Map_of_Ohio_highlighting_Monroe_County.svg/300px-Map_of_Ohio_highlighting_Monroe_County.svg.png"
          },
          {
            "County": "Montgomery",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Map_of_Ohio_highlighting_Montgomery_County.svg/300px-Map_of_Ohio_highlighting_Montgomery_County.svg.png"
          },
          {
            "County": "Morgan",
-           "Potential Exposure Level": 2,
+           "Risk": 2,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Map_of_Ohio_highlighting_Morgan_County.svg/300px-Map_of_Ohio_highlighting_Morgan_County.svg.png"
          },
          {
            "County": "Morrow",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Map_of_Ohio_highlighting_Morrow_County.svg/300px-Map_of_Ohio_highlighting_Morrow_County.svg.png"
          },
          {
            "County": "Muskingum",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Map_of_Ohio_highlighting_Muskingum_County.svg/300px-Map_of_Ohio_highlighting_Muskingum_County.svg.png"
          },
          {
            "County": "Noble",
-           "Potential Exposure Level": 2,
+           "Risk": 2,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Map_of_Ohio_highlighting_Noble_County.svg/300px-Map_of_Ohio_highlighting_Noble_County.svg.png"
          },
          {
            "County": "Ottawa",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Map_of_Ohio_highlighting_Ottawa_County.svg/300px-Map_of_Ohio_highlighting_Ottawa_County.svg.png"
          },
          {
            "County": "Paulding",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Map_of_Ohio_highlighting_Paulding_County.svg/300px-Map_of_Ohio_highlighting_Paulding_County.svg.png"
          },
          {
            "County": "Perry",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Map_of_Ohio_highlighting_Perry_County.svg/300px-Map_of_Ohio_highlighting_Perry_County.svg.png"
          },
          {
            "County": "Pickaway",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Map_of_Ohio_highlighting_Pickaway_County.svg/300px-Map_of_Ohio_highlighting_Pickaway_County.svg.png"
          },
          {
            "County": "Pike",
-           "Potential Exposure Level": 2,
+           "Risk": 2,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Map_of_Ohio_highlighting_Pike_County.svg/300px-Map_of_Ohio_highlighting_Pike_County.svg.png"
          },
          {
            "County": "Portage",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Map_of_Ohio_highlighting_Portage_County.svg/300px-Map_of_Ohio_highlighting_Portage_County.svg.png"
          },
          {
            "County": "Preble",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Map_of_Ohio_highlighting_Preble_County.svg/300px-Map_of_Ohio_highlighting_Preble_County.svg.png"
          },
          {
            "County": "Putnam",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Map_of_Ohio_highlighting_Putnam_County.svg/300px-Map_of_Ohio_highlighting_Putnam_County.svg.png"
          },
          {
            "County": "Richland",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Map_of_Ohio_highlighting_Richland_County.svg/300px-Map_of_Ohio_highlighting_Richland_County.svg.png"
          },
          {
            "County": "Ross",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Chillicothe_ohio_ross_county_courthouse_2006.jpg/250px-Chillicothe_ohio_ross_county_courthouse_2006.jpg"
          },
          {
            "County": "Sandusky",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Map_of_Ohio_highlighting_Sandusky_County.svg/300px-Map_of_Ohio_highlighting_Sandusky_County.svg.png"
          },
          {
            "County": "Scioto",
-           "Potential Exposure Level": 1,
+           "Risk": 1,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Map_of_Ohio_highlighting_Scioto_County.svg/300px-Map_of_Ohio_highlighting_Scioto_County.svg.png"
          },
          {
            "County": "Seneca",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Map_of_Ohio_highlighting_Seneca_County.svg/300px-Map_of_Ohio_highlighting_Seneca_County.svg.png"
          },
          {
            "County": "Shelby",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Map_of_Ohio_highlighting_Shelby_County.svg/300px-Map_of_Ohio_highlighting_Shelby_County.svg.png"
          },
          {
            "County": "Stark",
-           "Potential Exposure Level": 2,
+           "Risk": 2,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Map_of_Ohio_highlighting_Stark_County.svg/300px-Map_of_Ohio_highlighting_Stark_County.svg.png"
          },
          {
            "County": "Summit",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Map_of_Ohio_highlighting_Summit_County.svg/300px-Map_of_Ohio_highlighting_Summit_County.svg.png"
          },
          {
            "County": "Trumbull",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Map_of_Ohio_highlighting_Trumbull_County.svg/300px-Map_of_Ohio_highlighting_Trumbull_County.svg.png"
          },
          {
            "County": "Tuscarawas",
-           "Potential Exposure Level": 2,
+           "Risk": 2,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Map_of_Ohio_highlighting_Tuscarawas_County.svg/300px-Map_of_Ohio_highlighting_Tuscarawas_County.svg.png"
          },
          {
            "County": "Union",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Map_of_Ohio_highlighting_Union_County.svg/300px-Map_of_Ohio_highlighting_Union_County.svg.png"
          },
          {
            "County": "Van Wert",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Map_of_Ohio_highlighting_Van_Wert_County.svg/300px-Map_of_Ohio_highlighting_Van_Wert_County.svg.png"
          },
          {
            "County": "Vinton",
-           "Potential Exposure Level": 2,
+           "Risk": 2,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Map_of_Ohio_highlighting_Vinton_County.svg/300px-Map_of_Ohio_highlighting_Vinton_County.svg.png"
          },
          {
            "County": "Warren",
-           "Potential Exposure Level": 2,
+           "Risk": 2,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Map_of_Ohio_highlighting_Warren_County.svg/300px-Map_of_Ohio_highlighting_Warren_County.svg.png"
          },
          {
            "County": "Washington",
-           "Potential Exposure Level": 1,
+           "Risk": 1,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Map_of_Ohio_highlighting_Washington_County.svg/300px-Map_of_Ohio_highlighting_Washington_County.svg.png"
          },
          {
            "County": "Wayne",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Map_of_Ohio_highlighting_Wayne_County.svg/300px-Map_of_Ohio_highlighting_Wayne_County.svg.png"
          },
          {
            "County": "Williams",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Map_of_Ohio_highlighting_Williams_County.svg/300px-Map_of_Ohio_highlighting_Williams_County.svg.png"
          },
          {
            "County": "Wood",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Map_of_Ohio_highlighting_Wood_County.svg/300px-Map_of_Ohio_highlighting_Wood_County.svg.png"
          },
          {
            "County": "Wyandot",
-           "Potential Exposure Level": 3,
+           "Risk": 3,
            "MapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Map_of_Ohio_highlighting_Wyandot_County.svg/300px-Map_of_Ohio_highlighting_Wyandot_County.svg.png"
          }
         ]

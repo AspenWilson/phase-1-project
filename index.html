@@ -99,15 +99,23 @@
         </ul>
     </div>
     <div id="add-panel">
-        <button id='click-add'>Click here to add an Ohio farm to the list</button>
+        <button id='click-add'>Click here to add an Ohio farm to the list</button> </div>
         <!-- This is where the search bar will appear-->
-    <form id="add-farm" class="hidden">
-        <input type="text" id="farm-name" name="farm-name" placeholder="Farm Name..." value=""/><br />
-        <input type="text" id="farm-county" name="farm-county" placeholder="Farm County" value="" /> <br />
-        <input type="text" id="county-risk" name="county-risk" placeholder="County Risk" value="" /> <br />
-        <input type= 'submit' value="Submit" />
-    </form>
-</div>
+    <div id="add-farm">
+        <form id="add" class="hidden">
+            <input type="text" id="farm" name="farm" placeholder="Farm Name..." value=""/><br />
+            <input type="text" id="county" name="county" placeholder="County" value="" /> <button id="click-risk">Click Here to Populate the Risk</button>
+            <input type="text" id="risk" name="risk" placeholder="Risk" value="" />
+            <input class='hidden' type="text" id="map" name="map" placeholder="Map" value="" />
+            <select id="produce-select" name="produce-sort-by">
+            <option></option>
+            <option value="Produce (Veggies, Fruit, Herbs, and/or Honey)">Produce</option>
+            <option value="Livestock (Meat, Dairy, and/or Eggs)">Livestock</option>
+            <option value="Livestock & Produce">Produce & Livestock</option>
+            </select>
+            <input type= 'submit' value="Submit" />
+        </form>
+    </div>
     <div id="show-panel">
                 <!-- This is where the toggle and search results will appear-->
 

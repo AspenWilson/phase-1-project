@@ -13,7 +13,9 @@ const hiddenFarmLabel = document.querySelector('#farm-sort-label')
 const hiddenCountyLabel = document.querySelector('#county-sort-label')
 const hiddenProduceLabel = document.querySelector('#produce-sort-label')
 const clickAdd = document.querySelector('#click-add')
-const hiddenAddForm = document.querySelector('#add-farm')
+const hiddenAddForm = document.querySelector('#add')
+const formPopBtn = document.querySelector('#click-risk')
+
 
 
 //Fetch & Display Functions
@@ -28,7 +30,6 @@ function fetchCounties () {
     .then(resp => resp.json())
     .then(json=> displayCounties(json))
 }
-
 function displayFarms(farms) {
     farms.forEach(farm => {
         const farmLi = document.createElement('li')
@@ -111,8 +112,11 @@ function filterProduce () {
        let key = hiddenProduceSort.value
        let filteredFarmsProduce = farms.filter(farm => String(farm.Produces) === key)
        displayFarms(filteredFarmsProduce)
-})
+    })
+    toggleList.innerHTML= ``
+    showPanel.innerHTML=``
 }
+
 
 //Toggle Function 
 
@@ -157,6 +161,41 @@ function showForm () {
 }
 }
 
+function popFields () {
+    fetch(countyURL)
+        .then(resp => resp.json())
+        .then(counties=> {
+            formPopBtn.addEventListener('click',(e) => {
+                e.preventDefault()
+                let key = hiddenAddForm.county.value
+                let county = counties.find(el => el.County===key)
+                let risk = document.querySelector('#risk')
+                risk.value = county.Risk
+                let map = document.querySelector('#map')
+                map.value = county.MapImg
+            })
+        })
+    }
+
+popFields()
+// function addFarm () {
+//     fetch (farmURL)
+//     .then(resp=> resp.json())
+//     .then(farms=> {
+//         let newID = farms.length
+//         console.log(newID)
+
+//         let farmObj = {
+//             'ID': newID,
+//             'FarmName': event.target.farm-name.value,
+//             'County':event.target.select-county.value,
+//             'Produces': event.target.produce.select.value,
+//             'Risk': event.target.county-risk.value
+//             'MapImg':
+//         }
+//     })
+// }
+// addFarm()
 
 //Event Listeners
 toggleSearch.addEventListener('change', toggleSort)
