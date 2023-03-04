@@ -20,7 +20,20 @@ const newCounty = document.querySelector('#county')
 const newRisk = document.querySelector('#risk')
 const newMap = document.querySelector('#map')
 const newProduce = document.querySelector('#produce')
-const newFarmBtn = document.querySelector('#newFarm')
+const newFarmBtn = document.querySelector('#add-farm')
+
+//Event Listeners
+toggleSearch.addEventListener('change', toggleSort)
+
+hiddenFarmSort.addEventListener('change', filterFarmAlpha)
+
+hiddenCountySort.addEventListener('change', filterCountyAlpha)
+
+hiddenProduceSort.addEventListener('change', filterProduce)
+
+clickAdd.addEventListener('click', showForm)
+
+newFarmBtn.addEventListener('submit',addFarm)
 
 
 //Fetch & Display Functions
@@ -181,51 +194,51 @@ function popFields () {
     }
 popFields()
 
-function newID () {
-    fetch (farmURL)
-        .then(resp=> resp.json())
-        .then(farms=> {
-        const newID = (farms.length +1)
-        console.log(newID)
-})
-}
+// function newID () {
+//     fetch (farmURL)
+//         .then(resp=> resp.json())
+//         .then(farms=> {
+//         const newID = (farms.length +1)
+//         return newID
+// })
+// console.log(newID)
+// }
+// newID()
+// function handleSubmit(e) {
+//     // e.preventDefault()
+//     let newFarmObj = {
+//         // ID: newID(),
+//         'FarmName': e.target.newFarm.value,
+//         'County':   e.target.newCounty.value,
+//         'Produces': e.target.newProduce.value,
+//         'Risk': e.target.newRisk.value,
+//         'MapImg': e.target.newMap.value
+//     }
+//     addFarm(newFarmObj)
+// }
 
-const newFarmObj = {
-    'ID': newID(),
-    'FarmName': newFarm.value,
-    'County':newCounty.value,
-    'Produces': newProduce.value,
-    'Risk': newRisk.value,
-    'MapImg': newMap.value
-}
-
-function addFarm (newFarmObj) {
-        fetch(farmURL, {
-        method: 'POST',
-        headers: {
-            "Content-Type": "application/json"
-              },
-              body: JSON.stringify(newFarmObj)
-    })
-        .then(resp=>resp.json())
-        .then(farm => console.log(farm))
-}
-
-
-
-//Event Listeners
-toggleSearch.addEventListener('change', toggleSort)
-
-hiddenFarmSort.addEventListener('change', filterFarmAlpha)
-
-hiddenCountySort.addEventListener('change', filterCountyAlpha)
-
-hiddenProduceSort.addEventListener('change', filterProduce)
-
-clickAdd.addEventListener('click', showForm)
-
-document.addEventListener('DOMContentLoaded', (e) => {
+function addFarm (e) {
     e.preventDefault()
-    newFarmBtn.addEventListener('submit',addFarm)
-})
+    fetch (farmURL, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            Accept : "application/json"
+        },
+        body: JSON.stringify({
+            'ID': '',
+            'FarmName': e.target.farm.value,
+            'County':   e.target.county.value,
+            'Produces': e.target.produce.value,
+            'Risk': e.target.risk.value,
+            'MapImg': e.target.map.value
+        })
+    })
+    // .then(resp=>resp.json())
+    // .then(json => json)
+    console.log('i did something')
+}
+
+
+
 
