@@ -102,7 +102,7 @@
         <button id='click-add'>Click here to add an Ohio farm to the list</button> </div>
         <!-- This is where the search bar will appear-->
     <div id="add-farm">
-        <form id="add" class="hidden">
+        <form id="add" class="hidden" action="http://localhost:3000/farms" method='POST'>
             <input type="text" id="farm" name="farm" placeholder="Farm Name..." value=""/><br />
             <input type="text" id="county" name="county" placeholder="County" value="" /> <button id="click-risk">Click Here to Populate the Risk</button>
             <input type="text" id="risk" name="risk" placeholder="Risk" value="" />

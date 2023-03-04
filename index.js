@@ -15,10 +15,6 @@ const hiddenProduceLabel = document.querySelector('#produce-sort-label')
 const clickAdd = document.querySelector('#click-add')
 const hiddenAddForm = document.querySelector('#add')
 const formPopBtn = document.querySelector('#click-risk')
-const newFarm = document.querySelector('#farm')
-const newCounty = document.querySelector('#county')
-const newRisk = document.querySelector('#risk')
-const newMap = document.querySelector('#map')
 const newProduce = document.querySelector('#produce')
 const newFarmBtn = document.querySelector('#add-farm')
 
@@ -33,8 +29,10 @@ hiddenProduceSort.addEventListener('change', filterProduce)
 
 clickAdd.addEventListener('click', showForm)
 
-newFarmBtn.addEventListener('submit',addFarm)
-
+// document.addEventListener('DOMContentLoaded', () => {
+//     newFarmBtn.addEventListener('submit',addFarm)
+//     console.log('i did something')
+//     })
 
 //Fetch & Display Functions
 function fetchFarms () {
@@ -194,50 +192,43 @@ function popFields () {
     }
 popFields()
 
-// function newID () {
-//     fetch (farmURL)
-//         .then(resp=> resp.json())
-//         .then(farms=> {
-//         const newID = (farms.length +1)
-//         return newID
-// })
-// console.log(newID)
-// }
-// newID()
-// function handleSubmit(e) {
-//     // e.preventDefault()
-//     let newFarmObj = {
-//         // ID: newID(),
-//         'FarmName': e.target.newFarm.value,
-//         'County':   e.target.newCounty.value,
-//         'Produces': e.target.newProduce.value,
-//         'Risk': e.target.newRisk.value,
-//         'MapImg': e.target.newMap.value
-//     }
-//     addFarm(newFarmObj)
-// }
+function newID () {
+    fetch (farmURL)
+        .then(resp=> resp.json())
+        .then(farms=> {
+        const newID = (farms.length +1)
+        console.log(newID)
+})
+}
+newID()
 
-function addFarm (e) {
+document.addEventListener('DOMContentLoaded', () => {
+newFarmBtn.addEventListener('submit', (e) => {
     e.preventDefault()
-    fetch (farmURL, {
+    fetch (`http://localhost:3000/farms`, {
         method: "POST",
+        mode: 'cors',
+        credentials: 'same-origin',
         headers: {
             "Content-Type": "application/json",
-            Accept : "application/json"
+            "Accept" : "application/json"
         },
         body: JSON.stringify({
-            'ID': '',
-            'FarmName': e.target.farm.value,
-            'County':   e.target.county.value,
-            'Produces': e.target.produce.value,
-            'Risk': e.target.risk.value,
-            'MapImg': e.target.map.value
-        })
+            // ID: newID(),
+            FarmName: e.target.farm.value,
+            County:   e.target.county.value,
+            Produces: e.target.produce.value,
+            Risk: e.target.risk.value,
+            MapImg: e.target.map.value
+        }),
     })
-    // .then(resp=>resp.json())
-    // .then(json => json)
-    console.log('i did something')
-}
+    .then ((resp) => resp.json())
+    .then (e => e)
+    // .catch (err => {
+    //     console.log(err);
+    // })
+})
+})
 
 
 
