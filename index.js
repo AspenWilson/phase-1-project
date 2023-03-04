@@ -182,7 +182,18 @@ function popFields () {
 popFields()
 
 
-function addFarm (event) {
+function addFarm () {
+    let newFarmObj = {                
+    'ID': 316,
+    'FarmName': newFarm.value,
+    'County':newCounty.value,
+    'Produces': newProduce.value,
+    'Risk': newRisk.value,
+    'MapImg': newMap.value
+    }
+    console.log(newFarmObj)
+}
+newProduce.addEventListener('change',addFarm)
     // fetch (farmURL)
     // .then(resp=> resp.json())
     // .then(farms=> {
@@ -196,31 +207,31 @@ function addFarm (event) {
         //     'Risk': event.target.newRisk.value,
         //     'MapImg': event.target.newMap.value
         //   }
-        fetch(farmURL, {
-            method: 'POST',
-            headers: {
-                "Content-Type": "application/json",
-                Accept: "application/json"
-              },
-              body: JSON.stringify({
-                'ID': 316,
-                'FarmName': event.target.newFarm.value,
-                'County':event.target.newCounty.value,
-                'Produces': event.target.newProduce.value,
-                'Risk': event.target.newRisk.value,
-                'MapImg': event.target.newMap.value
-              })
-            })
-            .then(resp=> resp.json())
-            .then(event=>event)
-    }
+    //     fetch(farmURL, {
+    //         method: 'POST',
+    //         headers: {
+    //             "Content-Type": "application/json",
+    //             Accept: "application/json"
+    //           },
+    //           body: JSON.stringify({
+    //             'ID': 316,
+    //             'FarmName': event.target.newFarm.value,
+    //             'County':event.target.newCounty.value,
+    //             'Produces': event.target.newProduce.value,
+    //             'Risk': event.target.newRisk.value,
+    //             'MapImg': event.target.newMap.value
+    //           })
+    //         })
+    //         .then(resp=> resp.json())
+    //         .then(event=>event)
+    // }
 
 
-    newFarmBtn.addEventListener('submit',(e) => {
-        e.preventDefault()
-        addFarm(e.target)
-        console.log('i did something')
-    })
+    // newFarmBtn.addEventListener('submit',(e) => {
+    //     e.preventDefault()
+    //     addFarm(e.target)
+    //     console.log('i did something')
+    // })
 
 
 //Event Listeners
