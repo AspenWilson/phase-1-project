@@ -29,6 +29,13 @@ hiddenProduceSort.addEventListener('change', filterProduce)
 
 clickAdd.addEventListener('click', showForm)
 
+document.addEventListener('DOMContentLoaded', () => {
+    newFarmBtn.addEventListener('submit', (e) => {
+        e.preventDefault()
+        addFarm(e)
+    })
+})
+
 // document.addEventListener('DOMContentLoaded', () => {
 //     newFarmBtn.addEventListener('submit',addFarm)
 //     console.log('i did something')
@@ -202,19 +209,14 @@ function newID () {
 }
 newID()
 
-document.addEventListener('DOMContentLoaded', () => {
-newFarmBtn.addEventListener('submit', (e) => {
-    e.preventDefault()
+function addFarm(e) {
     fetch (`http://localhost:3000/farms`, {
         method: "POST",
-        mode: 'cors',
-        credentials: 'same-origin',
         headers: {
             "Content-Type": "application/json",
             "Accept" : "application/json"
         },
         body: JSON.stringify({
-            // ID: newID(),
             FarmName: e.target.farm.value,
             County:   e.target.county.value,
             Produces: e.target.produce.value,
@@ -223,12 +225,9 @@ newFarmBtn.addEventListener('submit', (e) => {
         }),
     })
     .then ((resp) => resp.json())
-    .then (e => e)
-    // .catch (err => {
-    //     console.log(err);
-    // })
-})
-})
+    .then (data => console.log(data))
+}
+
 
 
 
