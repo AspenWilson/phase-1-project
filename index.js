@@ -15,7 +15,12 @@ const hiddenProduceLabel = document.querySelector('#produce-sort-label')
 const clickAdd = document.querySelector('#click-add')
 const hiddenAddForm = document.querySelector('#add')
 const formPopBtn = document.querySelector('#click-risk')
-
+const newFarm = document.querySelector('#farm')
+const newCounty = document.querySelector('#county')
+const newRisk = document.querySelector('#risk')
+const newMap = document.querySelector('#map')
+const newProduce = document.querySelector('#produce')
+const newFarmBtn = document.querySelector('#newFarm')
 
 
 //Fetch & Display Functions
@@ -117,9 +122,7 @@ function filterProduce () {
     showPanel.innerHTML=``
 }
 
-
 //Toggle Function 
-
 function toggleSort (event) {
     let key = event.target.value
     if (key==='Farm Name'){
@@ -176,26 +179,49 @@ function popFields () {
             })
         })
     }
-
 popFields()
-// function addFarm () {
-//     fetch (farmURL)
-//     .then(resp=> resp.json())
-//     .then(farms=> {
-//         let newID = farms.length
-//         console.log(newID)
 
-//         let farmObj = {
-//             'ID': newID,
-//             'FarmName': event.target.farm-name.value,
-//             'County':event.target.select-county.value,
-//             'Produces': event.target.produce.select.value,
-//             'Risk': event.target.county-risk.value
-//             'MapImg':
-//         }
-//     })
-// }
-// addFarm()
+
+function addFarm (event) {
+    // fetch (farmURL)
+    // .then(resp=> resp.json())
+    // .then(farms=> {
+    //     let newID = farms.length
+
+        // let newFarmObj = {
+        //     'ID': 316,
+        //     'FarmName': event.target.newFarm.value,
+        //     'County':event.target.newCounty.value,
+        //     'Produces': event.target.newProduce.value,
+        //     'Risk': event.target.newRisk.value,
+        //     'MapImg': event.target.newMap.value
+        //   }
+        fetch(farmURL, {
+            method: 'POST',
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json"
+              },
+              body: JSON.stringify({
+                'ID': 316,
+                'FarmName': event.target.newFarm.value,
+                'County':event.target.newCounty.value,
+                'Produces': event.target.newProduce.value,
+                'Risk': event.target.newRisk.value,
+                'MapImg': event.target.newMap.value
+              })
+            })
+            .then(resp=> resp.json())
+            .then(event=>event)
+    }
+
+
+    newFarmBtn.addEventListener('submit',(e) => {
+        e.preventDefault()
+        addFarm(e.target)
+        console.log('i did something')
+    })
+
 
 //Event Listeners
 toggleSearch.addEventListener('change', toggleSort)
