@@ -32,6 +32,7 @@ clickAdd.addEventListener('click', showForm)
 newFarmBtn.addEventListener('submit', (e) => {
     e.preventDefault()
     addFarm()
+    newFarmBtn.reset()
 })
 
 
@@ -39,7 +40,18 @@ newFarmBtn.addEventListener('submit', (e) => {
 function fetchFarms () {
     fetch (farmURL)
     .then(resp => resp.json())
-    .then(json => displayFarms(json))
+    .then(farms => {
+        let sortedFarms = farms.sort(function(a,b) {
+            if(a.farm < b.farm){
+                return -1;
+            }
+            if (a.farm > b.farm){
+                return 1
+            }
+            return 0
+        })
+        displayFarms(sortedFarms)
+    })
 }
 
 function fetchCounties () {
@@ -47,30 +59,26 @@ function fetchCounties () {
     .then(resp => resp.json())
     .then(json=> displayCounties(json))
 }
+
 function displayFarms(farms) {
     farms.forEach(farm => {
         const farmLi = document.createElement('li')
-        farmLi.innerHTML = `${farm.FarmName}`
+        farmLi.innerHTML = `${farm.farm}`
+        farmLi.id = `${farm.id}`
         toggleList.appendChild(farmLi)
         
         farmLi.addEventListener('click', (e) => {
-            const farmName = document.createElement('h2')
-            farmName.innerHTML = `${farm.FarmName}`
-            const farmCounty = document.createElement('h4')
-            farmCounty.innerHTML = `This farm is located in ${farm.County} county.`
-            const farmOutput = document.createElement ('h4')
-            farmOutput.innerHTML = `This farm produces ${farm.Produces}.`
-            const farmRisk = document.createElement ('h4')
-            farmRisk.innerHTML = `Due to this farm's county, it carries an exposure risk of ${farm.Risk}.`
-            const farmImg = document.createElement('img')
-            farmImg.src =`${farm.MapImg}`
+            const farmDiv = document.createElement('div')
+            farmDiv.className = 'info-card'
+            farmDiv.id = `${farm.id}`
+            farmDiv.innerHTML = `
+            <h2>${farm.farm}</h2>
+            <h4>This farm is locationed in ${farm.county}.</h4>
+            <h4>Due do this farm's location, it's water source carries a risk of ${farm.risk}.</h2>
+            <img src=${farm.mapImg} />`
 
             showPanel.innerHTML= ``
-            showPanel.appendChild(farmName)
-            showPanel.appendChild(farmCounty)
-            showPanel.appendChild(farmOutput)
-            showPanel.appendChild(farmRisk)
-            showPanel.appendChild(farmImg)
+            showPanel.appendChild(farmDiv)
        })
     })
 }
@@ -78,21 +86,21 @@ function displayFarms(farms) {
 function displayCounties (counties) {
     counties.forEach(county => {
         const countyLi= document.createElement('li')
-        countyLi.innerHTML = `${county.County}`
+        countyLi.innerHTML = `${county.county}`
+        countyLi.id=`${county.id}`
         toggleList.appendChild(countyLi)
 
         countyLi.addEventListener('click', (e) => {
-            const countyName = document.createElement('h2')
-            countyName.innerHTML = `${county.County}`
-            const countyRisk = document.createElement ('h4')
-            countyRisk.innerHTML = `This counties proximity to potentially contaminated water gives it a risk factor of ${county.Risk}`
-            const countyImg = document.createElement('img')
-            countyImg.src= `${county.MapImg}`
+            const countyDiv = document.createElement('div')
+            countyDiv.className = ('info-card')
+            countyDiv.id = `${county.id}`
+            countyDiv.innerHTML= `
+            <h2>${county.county}</h2>
+            <h4>Due do this county's's location, it's water source carries a risk of ${county.risk}.</h2>
+            <img src=${county.mapImg} />`
 
             showPanel.innerHTML=``
-            showPanel.appendChild(countyName)
-            showPanel.appendChild(countyRisk)
-            showPanel.appendChild(countyImg)
+            showPanel.appendChild(countyDiv)
         })
     })
 }
@@ -103,8 +111,17 @@ function filterFarmAlpha () {
      .then(resp => resp.json())
      .then(farms => {
         let key = hiddenFarmSort.value.toUpperCase()
-        let filteredFarms = farms.filter(farm => String(farm.FarmName).startsWith(key))
-        displayFarms(filteredFarms)
+        let filteredFarms = farms.filter(farm => String(farm.farm).startsWith(key))
+        let sortedFarms = filteredFarms.sort(function(a,b) {
+            if(a.farm < b.farm){
+                return -1;
+            }
+            if (a.farm > b.farm){
+                return 1
+            }
+            return 0
+        })
+        displayFarms(sortedFarms)
      })
      toggleList.innerHTML= ``
      showPanel.innerHTML=``
@@ -115,7 +132,7 @@ function filterCountyAlpha () {
     .then(resp => resp.json())
     .then(counties => {
        let key = hiddenCountySort.value.toUpperCase()
-       let filteredCounties = counties.filter(county => String(county.County).startsWith(key))
+       let filteredCounties = counties.filter(county => String(county.county).startsWith(key))
        displayCounties(filteredCounties)
     })
     toggleList.innerHTML= ``
@@ -127,9 +144,18 @@ function filterProduce () {
     .then(resp => resp.json())
     .then(farms => {
        let key = hiddenProduceSort.value
-       let filteredFarmsProduce = farms.filter(farm => String(farm.Produces) === key)
-       displayFarms(filteredFarmsProduce)
+       let filteredFarmsProduce = farms.filter(farm => String(farm.produces) === key)
+       let sortedProducers = filteredFarmsProduce.sort(function(a,b) {
+        if(a.farm < b.farm){
+            return -1;
+        }
+        if (a.farm > b.farm){
+            return 1
+        }
+        return 0
     })
+    displayFarms(sortedProducers)
+ })
     toggleList.innerHTML= ``
     showPanel.innerHTML=``
 }
@@ -183,11 +209,11 @@ function popFields () {
             formPopBtn.addEventListener('click',(e) => {
                 e.preventDefault()
                 let key = hiddenAddForm.county.value
-                let county = counties.find(el => el.County===key)
+                let county = counties.find(el => el.county===key)
                 let risk = document.querySelector('#risk')
-                risk.value = county.Risk
-                let map = document.querySelector('#map')
-                map.value = county.MapImg
+                risk.value = county.risk
+                let mapImg = document.querySelector('#map')
+                mapImg.value = county.mapImg
             })
         })
     }
@@ -205,25 +231,34 @@ newID()
 
 function addFarm() {
     let newFarmObj= ({
-        // ID: newID(),
-        FarmName: farm.value,
-        County: county.value,
-        Produces: produce.value,
-        Risk: risk.value,
-        MapImg: map.value
+        "farm": farm.value,
+        "county": county.value,
+        "produces": produce.value,
+        "risk": risk.value,
+        "mapImg": map.value
     })
-    // console.log(newFarmObj)
     fetch (`http://localhost:3000/farms`, {
         method: "POST",
         headers: {
-            "Content-Type": "application/json",
-            'accepts' : 'application/json'
+            "Content-Type": "application/json"
         },
-        body: JSON.stringify(newFarmObj),
+        body: JSON.stringify(newFarmObj)
     })
-    console.log(newFarmObj)
-    .then (resp => resp.json())
-    .then (data => console.log(data))
+    .then(resp => resp.json())
+    .then(data => {
+        const farmDiv = document.createElement('div')
+        farmDiv.className = 'info-card'
+        farmDiv.id = `${data.id}`
+        farmDiv.innerHTML = `
+        <h2>You've successfully added this farm to the database!</h2>
+        <h2>${data.farm}</h2>
+        <h4>This farm is locationed in ${data.county}.</h4>
+        <h4>Due do this farm's location, it's water source carries a risk of ${data.risk}.</h2>
+        <img src=${data.mapImg} />`
+
+        showPanel.innerHTML= ``
+        showPanel.appendChild(farmDiv)
+    })
 }
 
 
