@@ -29,17 +29,11 @@ hiddenProduceSort.addEventListener('change', filterProduce)
 
 clickAdd.addEventListener('click', showForm)
 
-document.addEventListener('DOMContentLoaded', () => {
-    newFarmBtn.addEventListener('submit', (e) => {
-        e.preventDefault()
-        addFarm(e)
-    })
+newFarmBtn.addEventListener('submit', (e) => {
+    e.preventDefault()
+    addFarm()
 })
 
-// document.addEventListener('DOMContentLoaded', () => {
-//     newFarmBtn.addEventListener('submit',addFarm)
-//     console.log('i did something')
-//     })
 
 //Fetch & Display Functions
 function fetchFarms () {
@@ -209,22 +203,26 @@ function newID () {
 }
 newID()
 
-function addFarm(e) {
+function addFarm() {
+    let newFarmObj= ({
+        // ID: newID(),
+        FarmName: farm.value,
+        County: county.value,
+        Produces: produce.value,
+        Risk: risk.value,
+        MapImg: map.value
+    })
+    // console.log(newFarmObj)
     fetch (`http://localhost:3000/farms`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            "Accept" : "application/json"
+            'accepts' : 'application/json'
         },
-        body: JSON.stringify({
-            FarmName: e.target.farm.value,
-            County:   e.target.county.value,
-            Produces: e.target.produce.value,
-            Risk: e.target.risk.value,
-            MapImg: e.target.map.value
-        }),
+        body: JSON.stringify(newFarmObj),
     })
-    .then ((resp) => resp.json())
+    console.log(newFarmObj)
+    .then (resp => resp.json())
     .then (data => console.log(data))
 }
 
