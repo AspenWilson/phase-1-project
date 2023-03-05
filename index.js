@@ -32,7 +32,7 @@ clickAdd.addEventListener('click', showForm)
 newFarmBtn.addEventListener('submit', (e) => {
     e.preventDefault()
     addFarm()
-    newFarmBtn.reset()
+    document.querySelector('#add').reset()
 })
 
 
@@ -218,16 +218,6 @@ function popFields () {
         })
     }
 popFields()
-
-function newID () {
-    fetch (farmURL)
-        .then(resp=> resp.json())
-        .then(farms=> {
-        const newID = (farms.length +1)
-        console.log(newID)
-})
-}
-newID()
 
 function addFarm() {
     let newFarmObj= ({
