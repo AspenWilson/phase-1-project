@@ -70,3 +70,6 @@ title {
     width:100%
   }
 
+#list {
+    cursor: pointer;
+}

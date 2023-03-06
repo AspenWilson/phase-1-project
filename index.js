@@ -39,6 +39,8 @@ newFarmBtn.addEventListener('submit', (e) => {
 
 ohioMapBtn.addEventListener('click', hideMap)
 
+toggleList.addEventListener('click',colorChange)
+
 //Fetch & Display Functions
 function fetchFarms () {
     fetch (farmURL)
@@ -265,6 +267,12 @@ function hideMap () {
     }
 }
 
-
+function colorChange (e) {
+    if (e.target.style.color === 'purple') {
+        e.target.style.color = 'black'
+    } else {
+        e.target.style.color = 'purple'
+    }
+}
 
 
