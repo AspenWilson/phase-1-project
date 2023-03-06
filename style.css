@@ -1,5 +1,7 @@
 body {
     background-color: rgb(231, 245, 248);
+    display:flex;
+    flex-direction: column;
 }
 
 title {
@@ -57,4 +59,13 @@ title {
   #disclaimer {
     font-size: x-small;
     font-style: italic;
+  }
+
+  footer {
+    margin-top: auto;
+    align-self:center;
+  }
+
+  hr {
+    width:100%
   }

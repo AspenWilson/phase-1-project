@@ -17,119 +17,144 @@
             <li id="risk-info">3: A risk level of 3 indicates that the farm is located in a county not downstream from East Palestine and does not border a level 1 risk county. </li>
         </p>
         <p id='disclaimer'>DISCLAIMER: This data was compiled using publicly available data and has not been reviewed by experts. All data should be deemed reliable but not guaranteed. </p>
+        <p>River Runner (cited and linked below) is a great way to see a water's pathway from a specified location. Click on the link under "Sources" to see the pathway from East Palestine. However, the image below will give you an idea of the Ohio River's Path along the Eastern and Southern borders of the state</p>
+        <br>
+        <img src="https://www.whereig.com/usa/maps/rivers/ohio-river-map.jpg" />
         </header>
+    <section>
         <hr>
-    <div class='column side' id= 'list-panel'>
-        <h2>Filter Farm Data</h2>
-                <!-- This where the toggle list with be-->
-        <label for="list-options">View full list of data by Farm Name, County, or by what farm produces</label>
-        <br>
-        <select id="list-by" name="list-by">
-            <option></option>
-            <option value="County">County</option>
-            <option value="Farm Name">Farm Name</option>
-            <option value="Farm Produces">Farm Produces...</option>
-        </select>
-            <!-- Hidden toggle bars for each-->
-        <label class='hidden' id="farm-sort-label">Sort Farms Alphabetically</label>
-        <br>
-        <select class='hidden' id="farm-sort-by" name="farm-sort-by">
-            <option></option>
-            <option value="a">A</option>
-            <option value="b">B</option>
-            <option value="c">C</option>
-            <option value="d">D</option>
-            <option value="e">E</option>
-            <option value="f">F</option>
-            <option value="g">G</option>
-            <option value="h">H</option>
-            <option value="i">I</option>
-            <option value="j">J</option>
-            <option value="k">K</option>
-            <option value="l">L</option>
-            <option value="m">M</option>
-            <option value="n">N</option>
-            <option value="o">O</option>
-            <option value="p">P</option>
-            <option value="q">Q</option>
-            <option value="r">R</option>
-            <option value="s">S</option>
-            <option value="t">T</option>
-            <option value="u">U</option>
-            <option value="v">V</option>
-            <option value="w">W</option>
-            <option value="x">X</option>
-            <option value="y">Y</option>
-            <option value="z">Z</option>
-        </select>
-
-        <label class='hidden' id="county-sort-label">Sort Counties Alphabetically</label>
-        <br>
-        <select class='hidden' id="county-sort-by" name="county-sort-by">
-            <option></option>
-            <option value="a">A</option>
-            <option value="b">B</option>
-            <option value="c">C</option>
-            <option value="d">D</option>
-            <option value="e">E</option>
-            <option value="f">F</option>
-            <option value="g">G</option>
-            <option value="h">H</option>
-            <option value="i">I</option>
-            <option value="j">J</option>
-            <option value="k">K</option>
-            <option value="l">L</option>
-            <option value="m">M</option>
-            <option value="n">N</option>
-            <option value="o">O</option>
-            <option value="p">P</option>
-            <option value="q">Q</option>
-            <option value="r">R</option>
-            <option value="s">S</option>
-            <option value="t">T</option>
-            <option value="u">U</option>
-            <option value="v">V</option>
-            <option value="w">W</option>
-            <option value="x">X</option>
-            <option value="y">Y</option>
-            <option value="z">Z</option>
-        </select>
-
-        <label class='hidden' id="produce-sort-label">Sort Data by Farm Produce Type</label>
-        <select class='hidden' id="produce-sort-by" name="produce-sort-by">
-            <option></option>
-            <option value="Produce (Veggies, Fruit, Herbs, and/or Honey)">Produce</option>
-            <option value="Livestock (Meat, Dairy, and/or Eggs)">Livestock</option>
-            <option value="Livestock & Produce">Produce & Livestock</option>
-        </select>
-
-        <ul id= "list">
-        </ul>
-    </div>
-    <div class="column right">
-        <div id="add-panel">
-            <h2>Add an Ohio farm to the Database</h2>
-            <button id='click-add'>Click here add farm</button> </div>
-            <!-- This is where the search bar will appear-->
-        <div id="add-farm">
-            <form id="add" class="hidden" action="http://localhost:3000/farms" method='POST'>
-                <input type="text" id="farm" name="farm" placeholder="Farm Name..." value=""/><br />
-                <input type="text" id="county" name="county" placeholder="County" value="" /> <button id="click-risk">Click Here to Populate the Risk</button>
-                <input type="text" id="risk" name="risk" placeholder="Risk" value="" />
-                <input class='hidden' type="text" id="map" name="map" placeholder="Map" value="" />
-                <select id="produce" name="produce">
+        <div class='column side' id= 'list-panel'>
+            <h2>Filter Farm Data</h2>
+                    <!-- This where the toggle list with be-->
+            <label for="list-options">View full list of data by Farm Name, County, or by what farm produces</label>
+            <br>
+            <select id="list-by" name="list-by">
                 <option></option>
-                <option value="Produce (Veggies, Fruit, Herbs, and/or Honey)">Produce</option>
+                <option value="County">County</option>
+                <option value="Farm Name">Farm Name</option>
+                <option value="Farm Produces">Farm Produces...</option>
+            </select>
+                <!-- Hidden toggle bars for each-->
+                <br>
+            <label class='hidden' id="farm-sort-label"></label>
+            <select class='hidden' id="farm-sort-by" name="farm-sort-by">
+                <option>Sort Farms Alphabetically</option>
+                <option></option>
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="g">G</option>
+                <option value="h">H</option>
+                <option value="i">I</option>
+                <option value="j">J</option>
+                <option value="k">K</option>
+                <option value="l">L</option>
+                <option value="m">M</option>
+                <option value="n">N</option>
+                <option value="o">O</option>
+                <option value="p">P</option>
+                <option value="q">Q</option>
+                <option value="r">R</option>
+                <option value="s">S</option>
+                <option value="t">T</option>
+                <option value="u">U</option>
+                <option value="v">V</option>
+                <option value="w">W</option>
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="z">Z</option>
+            </select>
+
+            <label class='hidden' id="county-sort-label"></label>
+            <select class='hidden' id="county-sort-by" name="county-sort-by">
+                <option>Sort Counties Alphabetically</option>
+                <option></option>
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="g">G</option>
+                <option value="h">H</option>
+                <option value="i">I</option>
+                <option value="j">J</option>
+                <option value="k">K</option>
+                <option value="l">L</option>
+                <option value="m">M</option>
+                <option value="n">N</option>
+                <option value="o">O</option>
+                <option value="p">P</option>
+                <option value="q">Q</option>
+                <option value="r">R</option>
+                <option value="s">S</option>
+                <option value="t">T</option>
+                <option value="u">U</option>
+                <option value="v">V</option>
+                <option value="w">W</option>
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="z">Z</option>
+            </select>
+
+            <label class='hidden' id="produce-sort-label"></label>
+            <select class='hidden' id="produce-sort-by" name="produce-sort-by">
+                <option>Sort by Farm Produce Type</option>
+                <option></option>
                 <option value="Livestock (Meat, Dairy, and/or Eggs)">Livestock</option>
+                <option value="Produce (Veggies, Fruit, Herbs, and/or Honey)">Produce</option>
                 <option value="Livestock & Produce">Produce & Livestock</option>
-                </select>
-                <input type= 'submit' id='newFarm' name='newFarm' value="Submit" />
-            </form>
+            </select>
+
+            <ul id= "list">
+            </ul>
         </div>
-    </div>
-    <div class='column middle' id="show-panel">
-        <!-- This is where the info-cards will show-->
-    </div>
+        <div class='column middle' id="show-panel">
+            <!-- This is where the info-cards will show-->
+        </div>
+        <div class="column right">
+            <div id="add-panel">
+                <h2>Add an Ohio farm to the Database</h2>
+                <button id='click-add'>Click here to add farm</button> </div>
+                <!-- This is where the search bar will appear-->
+            <div id="add-farm">
+                <form id="add" class="hidden" action="http://localhost:3000/farms" method='POST'>
+                    <input type="text" id="farm" name="farm" placeholder="Farm Name..." value=""/><br />
+                    <input type="text" id="county" name="county" placeholder="County" value="" /> 
+                    <br>
+                    <button id="click-risk">Populate Risk</button>
+                    <br>
+                    <input type="text" id="risk" name="risk" placeholder="Risk will populate" value="" />
+                    <br>
+                    <input class='hidden' type="text" id="map" name="map" placeholder="Map" value="" />
+                    <select id="produce" name="produce">
+                    <option>Farm Produces...</option>
+                    <option></option>
+                    <option value="Produce (Veggies, Fruit, Herbs, and/or Honey)">Produce</option>
+                    <option value="Livestock (Meat, Dairy, and/or Eggs)">Livestock</option>
+                    <option value="Livestock & Produce">Produce & Livestock</option>
+                    </select>
+                    <br>
+                    <input type= 'submit' id='newFarm' name='newFarm' value="Submit" />
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <hr>
+        <p>Sources and Additional Information</p>
+        <ul>Sources
+            <li>Made in Ohio - grown in Ohio. Ohio Proud. (n.d.). Retrieved March 3, 2023, from <a href='http://ohioproud.org/'>Ohio Proud</a> </li>
+            <li>River runner. River Runner. (n.d.). Retrieved March 4, 2023, from <a href='https://river-runner.samlearner.com/?lng=-80.54609851828354&amp;lat=40.83169885554156'>River Runner</a> </li>
+            <li>Ohio Ecological Food and Farm Association (OEFFA) good earth guide. (n.d.). Retrieved March 2, 2023, from <a href='https://www.oeffa.org/countymap.php'>OEFFA site</a> </li>
+            <li>Wikimedia Foundation. (2023, March 4). Ohio. Wikipedia. Retrieved March 5, 2023, from <a href='https://en.wikipedia.org/wiki/Ohio'>Wikipedia</a> </li>
+            <li>Kumar, R. (2021, November 15). Ohio River Map, Rivers, & Lakes in Ohio (PDF). whereig. Retrieved March 5, 2023, from <a href='https://www.whereig.com/usa/states/ohio/ohio-river-map.html'>Ohio River Map</a> </li>
+        </ul>
+    </footer>
         <!-- Keep JS tag below this line!-->
         <script type="text/javascript" src="index.js"></script>
     </body>

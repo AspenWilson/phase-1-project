@@ -17,6 +17,7 @@ const hiddenAddForm = document.querySelector('#add')
 const formPopBtn = document.querySelector('#click-risk')
 const newProduce = document.querySelector('#produce')
 const newFarmBtn = document.querySelector('#add-farm')
+const video = document.querySelector('#video')
 
 //Event Listeners
 toggleSearch.addEventListener('change', toggleSort)
