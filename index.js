@@ -18,6 +18,7 @@ const formPopBtn = document.querySelector('#click-risk')
 const newProduce = document.querySelector('#produce')
 const newFarmBtn = document.querySelector('#add-farm')
 const video = document.querySelector('#video')
+const ohioMapBtn = document.querySelector('#maphide')
 
 //Event Listeners
 toggleSearch.addEventListener('change', toggleSort)
@@ -36,6 +37,7 @@ newFarmBtn.addEventListener('submit', (e) => {
     document.querySelector('#add').reset()
 })
 
+ohioMapBtn.addEventListener('click', hideMap)
 
 //Fetch & Display Functions
 function fetchFarms () {
@@ -254,6 +256,14 @@ function addFarm() {
     })
 }
 
+function hideMap () {
+    let ohioMap = document.querySelector('#ohioMap')
+    if (ohioMap.className === 'hidden'){
+        ohioMap.classList.remove('hidden')
+    } else {
+        ohioMap.className = 'hidden'
+    }
+}
 
 
 
