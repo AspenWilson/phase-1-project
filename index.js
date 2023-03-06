@@ -194,6 +194,13 @@ function toggleSort (event) {
         hiddenFarmSort.className='hidden'
         hiddenCountyLabel.className ='hidden'
         hiddenCountySort.className='hidden'
+    } else if (key === '') {
+        hiddenFarmLabel.className ='hidden'
+        hiddenFarmSort.className='hidden'
+        hiddenCountyLabel.className ='hidden'
+        hiddenCountySort.className='hidden'
+        hiddenProduceLabel.className='hidden'
+        hiddenProduceSort.className='hidden'
     }
     toggleList.innerHTML= ``
     showPanel.innerHTML=``
