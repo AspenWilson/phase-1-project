@@ -73,7 +73,8 @@ function displayFarms(farms) {
             farmDiv.id = `${farm.id}`
             farmDiv.innerHTML = `
             <h2>${farm.farm}</h2>
-            <h4>This farm is locationed in ${farm.county}.</h4>
+            <h4>This farm is located in ${farm.county} county.</h4>
+            <h4>This farm produces ${farm.produces}.</h4>
             <h4>Due to this farm's location, it's water source carries a risk of ${farm.risk}.</h2>
             <img src=${farm.mapImg} />`
 
@@ -242,7 +243,8 @@ function addFarm() {
         farmDiv.innerHTML = `
         <h2>You've successfully added this farm to the database!</h2>
         <h2>${data.farm}</h2>
-        <h4>This farm is locationed in ${data.county}.</h4>
+        <h4>This farm is locationed in ${data.county} county.</h4>
+        <h4>This farm produces ${data.produces}.</h4>
         <h4>Due to this farm's location, it's water source carries a risk of ${data.risk}.</h2>
         <img src=${data.mapImg} />`
 

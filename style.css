@@ -16,7 +16,7 @@ title {
     background-color:darkgreen;
     padding: 10px;
     color: aliceblue;
-    align-items: center;
+    text-align: center;
 }
 .column {
     float:left;
