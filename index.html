@@ -2,23 +2,24 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css" >
-    <title>Placeholder for Project Title</title>
+    <title>Wilson, A. Phase-1 Project</title>
     </head>
     <body>
         <header id= 'opening'>
-        <h1> First Headline</h1>
+        <h1>Potentially Contaminated Water Sources from Ohio Train Derailment and the Risks Posed to Ohio Farms</h1>
         <hr>
         <p> On February 3, 2023, a Norfolk Southern freight train derailed in East Palestine, Ohio. While there were no immediate fatalities, reports of dead wildlife in the area came out over the coming days and weeks. It has since been revealed that the derailed cars contained several dangerous materials that were set on fire. Of the 150 cars, 38 derailed and caught fire; of those 38, 11 carried these chemicals. The fire sent a plume of dark smoke up so high and spreading so far that it was pictured from planes passing overhead. The smoke plume will very likely present its own set of ecological factors. However, this page is looking specifically at the risks of the chemicals contaminating Ohio's water supplies. </p>
         <p>East Palestine is located on the eastern border of Ohio, with streams and rivers that feed into the Ohio River. Ohio is one of the United States’ largest producers of a variety of crops, and many of these crops are grown in fields that access water supplies from the Ohio River. To provide some transparency into where our food comes from, data has been compiled below that details the risk of contamination from the water source based on a particular farm's location. </p>
-        <ul>The risk of contamination has been classified into three categories:
-            <li>1: A risk level of one indicates that the farm is located in a county that borders a river or stream directly downstream from East Palestine. </li>
-            <li>2: A risk level of 2 indicates that the farm is located in a county directly bordering a level 1 risk county. </li>
-            <li>3:A risk level of 3 indicates that the farm is located in a county not downstream from East Palestine and does not border a level 1 risk county. </li>
-        </ul>
+        <p>The risk of contamination has been classified into three categories:
+            <br>
+            <li id="risk-info">1: A risk level of 1 indicates that the farm is located in a county that borders a river or stream directly downstream from East Palestine. </li>
+            <li id="risk-info">2: A risk level of 2 indicates that the farm is located in a county directly bordering a level 1 risk county. </li>
+            <li id="risk-info">3: A risk level of 3 indicates that the farm is located in a county not downstream from East Palestine and does not border a level 1 risk county. </li>
+        </p>
         <p id='disclaimer'>DISCLAIMER: This data was compiled using publicly available data and has not been reviewed by experts. All data should be deemed reliable but not guaranteed. </p>
         </header>
         <hr>
-    <div id= 'list-panel'>
+    <div class='column side' id= 'list-panel'>
         <h2>Filter Farm Data</h2>
                 <!-- This where the toggle list with be-->
         <label for="list-options">View full list of data by Farm Name, County, or by what farm produces</label>
@@ -105,28 +106,29 @@
         <ul id= "list">
         </ul>
     </div>
-    <h2>Add an Ohio farm to the Database</h2>
-    <div id="add-panel">
-        <button id='click-add'>Click here add farm</button> </div>
-        <!-- This is where the search bar will appear-->
-    <div id="add-farm">
-        <form id="add" class="hidden" action="http://localhost:3000/farms" method='POST'>
-            <input type="text" id="farm" name="farm" placeholder="Farm Name..." value=""/><br />
-            <input type="text" id="county" name="county" placeholder="County" value="" /> <button id="click-risk">Click Here to Populate the Risk</button>
-            <input type="text" id="risk" name="risk" placeholder="Risk" value="" />
-            <input class='hidden' type="text" id="map" name="map" placeholder="Map" value="" />
-            <select id="produce" name="produce">
-            <option></option>
-            <option value="Produce (Veggies, Fruit, Herbs, and/or Honey)">Produce</option>
-            <option value="Livestock (Meat, Dairy, and/or Eggs)">Livestock</option>
-            <option value="Livestock & Produce">Produce & Livestock</option>
-            </select>
-            <input type= 'submit' id='newFarm' name='newFarm' value="Submit" />
-        </form>
+    <div class="column right">
+        <div id="add-panel">
+            <h2>Add an Ohio farm to the Database</h2>
+            <button id='click-add'>Click here add farm</button> </div>
+            <!-- This is where the search bar will appear-->
+        <div id="add-farm">
+            <form id="add" class="hidden" action="http://localhost:3000/farms" method='POST'>
+                <input type="text" id="farm" name="farm" placeholder="Farm Name..." value=""/><br />
+                <input type="text" id="county" name="county" placeholder="County" value="" /> <button id="click-risk">Click Here to Populate the Risk</button>
+                <input type="text" id="risk" name="risk" placeholder="Risk" value="" />
+                <input class='hidden' type="text" id="map" name="map" placeholder="Map" value="" />
+                <select id="produce" name="produce">
+                <option></option>
+                <option value="Produce (Veggies, Fruit, Herbs, and/or Honey)">Produce</option>
+                <option value="Livestock (Meat, Dairy, and/or Eggs)">Livestock</option>
+                <option value="Livestock & Produce">Produce & Livestock</option>
+                </select>
+                <input type= 'submit' id='newFarm' name='newFarm' value="Submit" />
+            </form>
+        </div>
     </div>
-    <div id="show-panel">
-                <!-- This is where the toggle and search results will appear-->
-
+    <div class='column middle' id="show-panel">
+        <!-- This is where the info-cards will show-->
     </div>
         <!-- Keep JS tag below this line!-->
         <script type="text/javascript" src="index.js"></script>

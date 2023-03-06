@@ -74,7 +74,7 @@ function displayFarms(farms) {
             farmDiv.innerHTML = `
             <h2>${farm.farm}</h2>
             <h4>This farm is locationed in ${farm.county}.</h4>
-            <h4>Due do this farm's location, it's water source carries a risk of ${farm.risk}.</h2>
+            <h4>Due to this farm's location, it's water source carries a risk of ${farm.risk}.</h2>
             <img src=${farm.mapImg} />`
 
             showPanel.innerHTML= ``
@@ -96,7 +96,7 @@ function displayCounties (counties) {
             countyDiv.id = `${county.id}`
             countyDiv.innerHTML= `
             <h2>${county.county}</h2>
-            <h4>Due do this county's's location, it's water source carries a risk of ${county.risk}.</h2>
+            <h4>Due to this county's location, it's water source carries a risk of ${county.risk}.</h2>
             <img src=${county.mapImg} />`
 
             showPanel.innerHTML=``
@@ -243,7 +243,7 @@ function addFarm() {
         <h2>You've successfully added this farm to the database!</h2>
         <h2>${data.farm}</h2>
         <h4>This farm is locationed in ${data.county}.</h4>
-        <h4>Due do this farm's location, it's water source carries a risk of ${data.risk}.</h2>
+        <h4>Due to this farm's location, it's water source carries a risk of ${data.risk}.</h2>
         <img src=${data.mapImg} />`
 
         showPanel.innerHTML= ``

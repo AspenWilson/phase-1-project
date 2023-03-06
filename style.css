@@ -1,9 +1,9 @@
 body {
-    background-color: antiquewhite;
+    background-color: rgb(231, 245, 248);
 }
 
 title {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
     font-size: large;
 }
 
@@ -11,25 +11,50 @@ title {
     text-align:center;
 }
 
-#search-show-panel {
-    float:right
+.info-card {
+    border-style: dashed;
+    background-color:darkgreen;
+    padding: 10px;
+    color: aliceblue;
+    align-items: center;
+}
+.column {
+    float:left;
+    padding: 10px
 }
 
-section {
-    display: grid
+.column.side {
+    width: 25%
 }
 
-#search-panel {
-    float: left;
-    margin: 0 1.5%;
-    width: 63%;
-  }
-#list-panel  {
-    float: left;
-    margin: 0 1.5%;
-    width: 40%;
-  }
+.column.middle {
+    width: 40%
+}
+
+.column.right {
+    float:right;
+    width: 25%
+}
+
 
   .hidden {
     display: none
+  }
+
+  p {
+    font-family: sans-serif;
+    text-align: left;
+    text-indent: 30px;
+  }
+
+  #risk-info {
+    font-family: sans-serif;
+    text-align: left;
+    font-size: medium;
+    padding-left: 10px;
+  }
+
+  #disclaimer {
+    font-size: x-small;
+    font-style: italic;
   }
