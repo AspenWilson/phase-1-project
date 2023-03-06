@@ -2519,14 +2519,6 @@
       "produces": "Livestock (Meat, Dairy, and/or Eggs)",
       "risk": 3,
       "mapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Map_of_Ohio_highlighting_Clark_County.svg/300px-Map_of_Ohio_highlighting_Clark_County.svg.png"
-    },
-    {
-      "farm": "Aspen's Farm",
-      "county": "Adams",
-      "produces": "Produce (Veggies, Fruit, Herbs, and/or Honey)",
-      "risk": "1",
-      "mapImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Map_of_Ohio_highlighting_Adams_County.svg/300px-Map_of_Ohio_highlighting_Adams_County.svg.png",
-      "id": 316
     }
   ],
   "counties": [
